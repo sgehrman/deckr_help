@@ -1,0 +1,20 @@
+name: deckr_help
+description: Deckr Help
+version: 1.0.1
+homepage: distantfutu.re
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  dfc_flutter:
+    git: https://github.com/sgehrman/dfc_flutter
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  # must include this with dfc_lints. see https://github.com/dart-code-checker/dart-code-metrics/issues/254
+  dart_code_metrics: ^5.7.5
+  dfc_lints:
+    git: https://github.com/sgehrman/dfc_lints
