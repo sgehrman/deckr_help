@@ -44,7 +44,7 @@ class HelpData {
         break;
 
       case HelpDataId.whyShareBookmarks:
-        title = const ParagrafSpec.md('Why problem does $kAppName solve?');
+        title = const ParagrafSpec.md('Why problem does Deckr solve?');
         message = _HelpParagrafs.withId(id);
         break;
 
@@ -99,14 +99,14 @@ class HelpData {
 
       case HelpDataId.multipleComputers:
         title = const ParagrafSpec.md(
-          'How do I install $kAppName on multiple computers?',
+          'How do I install Deckr on multiple computers?',
         );
         message = _HelpParagrafs.withId(id);
         break;
 
       case HelpDataId.autoLaunchOnStartup:
         title = const ParagrafSpec.md(
-          'How do set $kAppName to auto launch on startup?',
+          'How do set Deckr to auto launch on startup?',
         );
         message = _HelpParagrafs.withId(id);
         break;
@@ -168,10 +168,10 @@ class _HelpParagrafs {
     switch (id) {
       case HelpDataId.whatIsALicenseKey:
         return ParagrafSpec.sml(
-          'When you purchase $kAppName you are sent a license key. The key is a unique string that represents your purchase.',
+          'When you purchase Deckr you are sent a license key. The key is a unique string that represents your purchase.',
           children: [
             ParagrafSpec.sml(
-              'When you receive your key, you paste into the purchase dialog in $kAppName and activate it.',
+              'When you receive your key, you paste into the purchase dialog in Deckr and activate it.',
               spaces: 2,
             ),
             ParagrafSpec.sml(
@@ -182,7 +182,7 @@ class _HelpParagrafs {
         );
       case HelpDataId.whatAreActivations:
         return ParagrafSpec.sml(
-          'A license key must be activated on your machine to show that you have purchased $kAppName.',
+          'A license key must be activated on your machine to show that you have purchased Deckr.',
           children: [
             ParagrafSpec.sml(
               'By default, you are given 3 activations per purchase. You can activate up to 3 computers. If you stop using one of your computers you can deactivate it.',
@@ -196,7 +196,7 @@ class _HelpParagrafs {
           'We take privacy seriously and we would never do anything to break your trust.',
           children: [
             ParagrafSpec.sml(
-              'We created $kAppName to be a useful tool that provides value to the customer.',
+              'We created Deckr to be a useful tool that provides value to the customer.',
               spaces: 2,
             ),
             ParagrafSpec.sml(
@@ -212,7 +212,7 @@ class _HelpParagrafs {
 
       case HelpDataId.whyShareBookmarks:
         return ParagrafSpec.sml(
-          '$kAppName provides a new way to share and discover great content online.',
+          'Deckr provides a new way to share and discover great content online.',
           children: [
             ParagrafSpec.sml(
               'You may have noticed that searching with Google or YouTube these days doesn\'t provide great results.',
@@ -247,15 +247,15 @@ class _HelpParagrafs {
           newlines: 2,
           children: [
             ParagrafSpec.sml(
-              'That\'s not possible with $kAppName, but we have a better way. ',
+              'That\'s not possible with Deckr, but we have a better way. ',
               newlines: 2,
             ),
             ParagrafSpec.sml(
-              'Make a new tab to bring up $kAppName and look on the left side for the list of open tabs. Drag the tab to a bookmark deck in the middle column.',
+              'Make a new tab to bring up Deckr and look on the left side for the list of open tabs. Drag the tab to a bookmark deck in the middle column.',
               newlines: 2,
             ),
             ParagrafSpec.sml(
-              'You can also type cmd-shift-L to add the current tabs bookmark into the Read Later box on the top right of the $kAppName screen.',
+              'You can also type cmd-shift-L to add the current tabs bookmark into the Read Later box on the top right of the Deckr screen.',
               newlines: 2,
             ),
             ParagrafSpec.sml(
@@ -324,19 +324,19 @@ class _HelpParagrafs {
           newlines: 2,
           children: [
             ParagrafSpec.sml(
-              'Click the link on the home page and click "install extension". Once installed, run the desktop app and open a browser window, make a new tab and $kAppName will show.',
+              'Click the link on the home page and click "install extension". Once installed, run the desktop app and open a browser window, make a new tab and Deckr will show.',
             ),
           ],
         );
 
       case HelpDataId.expiredLicense:
         return ParagrafSpec.sml(
-          'You can still run $kAppName, but you\'ll see "nag" messages asking you to purchase.',
+          'You can still run Deckr, but you\'ll see "nag" messages asking you to purchase.',
         );
 
       case HelpDataId.blueIconOnMenuBar:
         return ParagrafSpec.sml(
-          'When the $kAppName desktop app is running, it puts an item in your menubar (task bar on Windows).',
+          'When the Deckr desktop app is running, it puts an item in your menubar (task bar on Windows).',
           newlines: 2,
           children: [
             ParagrafSpec.sml(
@@ -344,7 +344,7 @@ class _HelpParagrafs {
               newlines: 2,
             ),
             ParagrafSpec.sml(
-              'If you open the "About $kAppName" menu item, you can set the color and size of this icon. And you can set "Launch at Startup" which makes $kAppName launch after a restart.',
+              'If you open the "About Deckr" menu item, you can set the color and size of this icon. And you can set "Launch at Startup" which makes Deckr launch after a restart.',
               newlines: 2,
             ),
             ParagrafSpec.sml(
@@ -355,15 +355,15 @@ class _HelpParagrafs {
 
       case HelpDataId.autoLaunchOnStartup:
         return ParagrafSpec.sml(
-          'When the $kAppName desktop app is running, it puts an blue icon at the top right of your menubar (task bar on Windows).',
+          'When the Deckr desktop app is running, it puts an blue icon at the top right of your menubar (task bar on Windows).',
           newlines: 2,
           children: [
             ParagrafSpec.sml(
-              'Click on that icon and a menu appears. Choose the "About $kAppName" menu item.',
+              'Click on that icon and a menu appears. Choose the "About Deckr" menu item.',
               newlines: 2,
             ),
             ParagrafSpec.sml(
-              'In this window find the checkbox labeled "Launch at Startup" and now it will launch after a restart.  This is a convenient feature so $kAppName is always running and ready to go.',
+              'In this window find the checkbox labeled "Launch at Startup" and now it will launch after a restart.  This is a convenient feature so Deckr is always running and ready to go.',
             ),
           ],
         );
@@ -377,7 +377,7 @@ class _HelpParagrafs {
               spaces: 2,
             ),
             ParagrafSpec.sml(
-              'You can also backup your bookmarks to the $kAppName cloud which requires an account to keep it private',
+              'You can also backup your bookmarks to the Deckr cloud which requires an account to keep it private',
               spaces: 2,
             ),
           ],
