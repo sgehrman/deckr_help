@@ -1,4 +1,18 @@
 {
   "@@locale": "en",
-  "whatIsALicenseKeyH": "What is a license key?"
+  "basicUsageHowDoISaveABookmark": "Basic usage: how do I save a bookmark?",
+  "doYouHaveACoupon": "Do you have a coupon?",
+  "howDoIInstallDeckrOnMultipleComputers": "How do I install Deckr on multiple computers?",
+  "howDoIInstallTheBrowserExtension": "How do I install the browser extension?",
+  "howDoIInstallTheDesktopApp": "How do I install the desktop app?",
+  "howDoSetDeckrToAutoLaunchOnStartup": "How do set Deckr to auto launch on startup?",
+  "whatAreActivations": "What are \"activations\"?",
+  "whatHappensWhenMyLicenseExpires": "What happens when my license expires?",
+  "whatIsALicenseKey": "What is a license key?",
+  "whatIsThatBlueIconInMyMenubar": "What is that blue icon in my menubar?",
+  "whatIsYourPrivacyPolicy": "What is your privacy policy?",
+  "whatSYourRefundPolicy": "What's your refund policy?",
+  "whyDoIHaveToSignInToAccessTheDeckStore": "Why do I have to sign-in to access the Deck store?",
+  "whyIsThereAnBrowserExtensionAndADesktopApplication": "Why is there an browser extension and a desktop application?",
+  "whyProblemDoesDeckrSolve": "Why problem does Deckr solve?"
 }

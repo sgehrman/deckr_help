@@ -1,0 +1,18 @@
+{
+  "@@locale": "ja",
+  "basicUsageHowDoISaveABookmark": "基本的な使い方：ブックマークを保存するには？",
+  "doYouHaveACoupon": "クーポンはあるか？",
+  "howDoIInstallDeckrOnMultipleComputers": "Deckrを複数のコンピューターにインストールする方法は？",
+  "howDoIInstallTheBrowserExtension": "ブラウザ拡張機能のインストール方法は？",
+  "howDoIInstallTheDesktopApp": "デスクトップアプリのインストール方法は？",
+  "howDoSetDeckrToAutoLaunchOnStartup": "Deckrを起動時に自動起動するように設定するには？",
+  "whatAreActivations": "アクティベーション」とは何か？",
+  "whatHappensWhenMyLicenseExpires": "ライセンスの有効期限が切れるとどうなるのか？",
+  "whatIsALicenseKey": "ライセンスキーとは何か？",
+  "whatIsThatBlueIconInMyMenubar": "メニューバーの青いアイコンは何だろう？",
+  "whatIsYourPrivacyPolicy": "プライバシー・ポリシーとは何か？",
+  "whatSYourRefundPolicy": "返金ポリシーは？",
+  "whyDoIHaveToSignInToAccessTheDeckStore": "デッキストアにアクセスするのにサインインが必要なのはなぜか？",
+  "whyIsThereAnBrowserExtensionAndADesktopApplication": "なぜブラウザの拡張機能とデスクトップアプリケーションがあるのか？",
+  "whyProblemDoesDeckrSolve": "Deckrはなぜ問題を解決するのか？"
+}

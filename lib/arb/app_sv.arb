@@ -1,0 +1,18 @@
+{
+  "@@locale": "sv",
+  "basicUsageHowDoISaveABookmark": "Grundläggande användning: Hur sparar jag ett bokmärke?",
+  "doYouHaveACoupon": "Har du en kupong?",
+  "howDoIInstallDeckrOnMultipleComputers": "Hur installerar jag Deckr på flera datorer?",
+  "howDoIInstallTheBrowserExtension": "Hur installerar jag webbläsartillägget?",
+  "howDoIInstallTheDesktopApp": "Hur installerar jag desktop-appen?",
+  "howDoSetDeckrToAutoLaunchOnStartup": "Hur ställer man in Deckr så att den startar automatiskt vid start?",
+  "whatAreActivations": "Vad är \"aktiveringar\"?",
+  "whatHappensWhenMyLicenseExpires": "Vad händer när min licens löper ut?",
+  "whatIsALicenseKey": "Vad är en licensnyckel?",
+  "whatIsThatBlueIconInMyMenubar": "Vad är den blå ikonen i min menyrad?",
+  "whatIsYourPrivacyPolicy": "Vad har ni för integritetspolicy?",
+  "whatSYourRefundPolicy": "Vad är er policy för återbetalning?",
+  "whyDoIHaveToSignInToAccessTheDeckStore": "Varför måste jag logga in för att komma åt Deck Store?",
+  "whyIsThereAnBrowserExtensionAndADesktopApplication": "Varför finns det ett webbläsartillägg och en desktop-applikation?",
+  "whyProblemDoesDeckrSolve": "Vilket problem löser Deckr?"
+}

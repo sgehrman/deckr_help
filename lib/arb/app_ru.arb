@@ -1,0 +1,18 @@
+{
+  "@@locale": "ru",
+  "basicUsageHowDoISaveABookmark": "Основы использования: как сохранить закладку?",
+  "doYouHaveACoupon": "У тебя есть купон?",
+  "howDoIInstallDeckrOnMultipleComputers": "Как установить Deckr на несколько компьютеров?",
+  "howDoIInstallTheBrowserExtension": "Как установить расширение для браузера?",
+  "howDoIInstallTheDesktopApp": "Как установить приложение для рабочего стола?",
+  "howDoSetDeckrToAutoLaunchOnStartup": "Как настроить Deckr на автозапуск при старте?",
+  "whatAreActivations": "Что такое \"активации\"?",
+  "whatHappensWhenMyLicenseExpires": "Что произойдет, когда срок действия моей лицензии истечет?",
+  "whatIsALicenseKey": "Что такое лицензионный ключ?",
+  "whatIsThatBlueIconInMyMenubar": "Что это за синий значок в моей менубаре?",
+  "whatIsYourPrivacyPolicy": "Какова твоя политика конфиденциальности?",
+  "whatSYourRefundPolicy": "Какова твоя политика возврата денег?",
+  "whyDoIHaveToSignInToAccessTheDeckStore": "Почему мне нужно регистрироваться, чтобы получить доступ к магазину Deck?",
+  "whyIsThereAnBrowserExtensionAndADesktopApplication": "Почему есть расширение для браузера и приложение для рабочего стола?",
+  "whyProblemDoesDeckrSolve": "Какую проблему решает Deckr?"
+}

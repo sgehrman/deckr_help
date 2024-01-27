@@ -5,8 +5,19 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
+import 'app_localizations_cs.dart';
+import 'app_localizations_da.dart';
+import 'app_localizations_de.dart';
 import 'app_localizations_en.dart';
 import 'app_localizations_es.dart';
+import 'app_localizations_fi.dart';
+import 'app_localizations_fr.dart';
+import 'app_localizations_it.dart';
+import 'app_localizations_ja.dart';
+import 'app_localizations_nl.dart';
+import 'app_localizations_ru.dart';
+import 'app_localizations_sv.dart';
+import 'app_localizations_zh.dart';
 
 /// Callers can lookup localized strings with an instance of AppLocalizations
 /// returned by `AppLocalizations.of(context)`.
@@ -89,15 +100,110 @@ abstract class AppLocalizations {
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
+    Locale('cs'),
+    Locale('da'),
+    Locale('de'),
     Locale('en'),
-    Locale('es')
+    Locale('es'),
+    Locale('fi'),
+    Locale('fr'),
+    Locale('it'),
+    Locale('ja'),
+    Locale('nl'),
+    Locale('ru'),
+    Locale('sv'),
+    Locale('zh')
   ];
 
-  /// No description provided for @whatIsALicenseKeyH.
+  /// No description provided for @basicUsageHowDoISaveABookmark.
+  ///
+  /// In en, this message translates to:
+  /// **'Basic usage: how do I save a bookmark?'**
+  String get basicUsageHowDoISaveABookmark;
+
+  /// No description provided for @doYouHaveACoupon.
+  ///
+  /// In en, this message translates to:
+  /// **'Do you have a coupon?'**
+  String get doYouHaveACoupon;
+
+  /// No description provided for @howDoIInstallDeckrOnMultipleComputers.
+  ///
+  /// In en, this message translates to:
+  /// **'How do I install Deckr on multiple computers?'**
+  String get howDoIInstallDeckrOnMultipleComputers;
+
+  /// No description provided for @howDoIInstallTheBrowserExtension.
+  ///
+  /// In en, this message translates to:
+  /// **'How do I install the browser extension?'**
+  String get howDoIInstallTheBrowserExtension;
+
+  /// No description provided for @howDoIInstallTheDesktopApp.
+  ///
+  /// In en, this message translates to:
+  /// **'How do I install the desktop app?'**
+  String get howDoIInstallTheDesktopApp;
+
+  /// No description provided for @howDoSetDeckrToAutoLaunchOnStartup.
+  ///
+  /// In en, this message translates to:
+  /// **'How do set Deckr to auto launch on startup?'**
+  String get howDoSetDeckrToAutoLaunchOnStartup;
+
+  /// No description provided for @whatAreActivations.
+  ///
+  /// In en, this message translates to:
+  /// **'What are \"activations\"?'**
+  String get whatAreActivations;
+
+  /// No description provided for @whatHappensWhenMyLicenseExpires.
+  ///
+  /// In en, this message translates to:
+  /// **'What happens when my license expires?'**
+  String get whatHappensWhenMyLicenseExpires;
+
+  /// No description provided for @whatIsALicenseKey.
   ///
   /// In en, this message translates to:
   /// **'What is a license key?'**
-  String get whatIsALicenseKeyH;
+  String get whatIsALicenseKey;
+
+  /// No description provided for @whatIsThatBlueIconInMyMenubar.
+  ///
+  /// In en, this message translates to:
+  /// **'What is that blue icon in my menubar?'**
+  String get whatIsThatBlueIconInMyMenubar;
+
+  /// No description provided for @whatIsYourPrivacyPolicy.
+  ///
+  /// In en, this message translates to:
+  /// **'What is your privacy policy?'**
+  String get whatIsYourPrivacyPolicy;
+
+  /// No description provided for @whatSYourRefundPolicy.
+  ///
+  /// In en, this message translates to:
+  /// **'What\'s your refund policy?'**
+  String get whatSYourRefundPolicy;
+
+  /// No description provided for @whyDoIHaveToSignInToAccessTheDeckStore.
+  ///
+  /// In en, this message translates to:
+  /// **'Why do I have to sign-in to access the Deck store?'**
+  String get whyDoIHaveToSignInToAccessTheDeckStore;
+
+  /// No description provided for @whyIsThereAnBrowserExtensionAndADesktopApplication.
+  ///
+  /// In en, this message translates to:
+  /// **'Why is there an browser extension and a desktop application?'**
+  String get whyIsThereAnBrowserExtensionAndADesktopApplication;
+
+  /// No description provided for @whyProblemDoesDeckrSolve.
+  ///
+  /// In en, this message translates to:
+  /// **'Why problem does Deckr solve?'**
+  String get whyProblemDoesDeckrSolve;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
@@ -109,7 +215,7 @@ class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> 
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['en', 'es'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['cs', 'da', 'de', 'en', 'es', 'fi', 'fr', 'it', 'ja', 'nl', 'ru', 'sv', 'zh'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -120,8 +226,19 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
+    case 'cs': return AppLocalizationsCs();
+    case 'da': return AppLocalizationsDa();
+    case 'de': return AppLocalizationsDe();
     case 'en': return AppLocalizationsEn();
     case 'es': return AppLocalizationsEs();
+    case 'fi': return AppLocalizationsFi();
+    case 'fr': return AppLocalizationsFr();
+    case 'it': return AppLocalizationsIt();
+    case 'ja': return AppLocalizationsJa();
+    case 'nl': return AppLocalizationsNl();
+    case 'ru': return AppLocalizationsRu();
+    case 'sv': return AppLocalizationsSv();
+    case 'zh': return AppLocalizationsZh();
   }
 
   throw FlutterError(

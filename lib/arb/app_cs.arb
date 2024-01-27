@@ -1,0 +1,18 @@
+{
+  "@@locale": "cs",
+  "basicUsageHowDoISaveABookmark": "Základní použití: jak uložím záložku?",
+  "doYouHaveACoupon": "Máte kupón?",
+  "howDoIInstallDeckrOnMultipleComputers": "Jak nainstaluji Deckr na více počítačů?",
+  "howDoIInstallTheBrowserExtension": "Jak nainstaluji rozšíření prohlížeče?",
+  "howDoIInstallTheDesktopApp": "Jak nainstaluji aplikaci pro stolní počítače?",
+  "howDoSetDeckrToAutoLaunchOnStartup": "Jak nastavit automatické spuštění Deckr při startu?",
+  "whatAreActivations": "Co jsou aktivace?",
+  "whatHappensWhenMyLicenseExpires": "Co se stane, když mi vyprší platnost licence?",
+  "whatIsALicenseKey": "Co je to licenční klíč?",
+  "whatIsThatBlueIconInMyMenubar": "Co je to za modrou ikonu na panelu nabídek?",
+  "whatIsYourPrivacyPolicy": "Jaké jsou vaše zásady ochrany osobních údajů?",
+  "whatSYourRefundPolicy": "Jaké jsou vaše zásady vracení peněz?",
+  "whyDoIHaveToSignInToAccessTheDeckStore": "Proč se musím pro přístup do obchodu Deck přihlásit?",
+  "whyIsThereAnBrowserExtensionAndADesktopApplication": "Proč existuje rozšíření prohlížeče a aplikace pro stolní počítače?",
+  "whyProblemDoesDeckrSolve": "Jaký problém řeší Deckr?"
+}

@@ -1,0 +1,18 @@
+{
+  "@@locale": "it",
+  "basicUsageHowDoISaveABookmark": "Utilizzo di base: come faccio a salvare un segnalibro?",
+  "doYouHaveACoupon": "Hai un buono sconto?",
+  "howDoIInstallDeckrOnMultipleComputers": "Come posso installare il Deckr su più computer?",
+  "howDoIInstallTheBrowserExtension": "Come si installa l'estensione del browser?",
+  "howDoIInstallTheDesktopApp": "Come faccio a installare l'applicazione desktop?",
+  "howDoSetDeckrToAutoLaunchOnStartup": "Come si imposta l'avvio automatico del Deckr all'avvio?",
+  "whatAreActivations": "Cosa sono le \"attivazioni\"?",
+  "whatHappensWhenMyLicenseExpires": "Cosa succede quando la mia licenza scade?",
+  "whatIsALicenseKey": "Cos'è una chiave di licenza?",
+  "whatIsThatBlueIconInMyMenubar": "Cos'è quell'icona blu nella mia barra dei menu?",
+  "whatIsYourPrivacyPolicy": "Qual è la vostra politica sulla privacy?",
+  "whatSYourRefundPolicy": "Qual è la vostra politica di rimborso?",
+  "whyDoIHaveToSignInToAccessTheDeckStore": "Perché devo registrarmi per accedere al negozio Deck?",
+  "whyIsThereAnBrowserExtensionAndADesktopApplication": "Perché esiste un'estensione per il browser e un'applicazione per il desktop?",
+  "whyProblemDoesDeckrSolve": "Perché il Deckr risolve questo problema?"
+}

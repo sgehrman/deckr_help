@@ -1,0 +1,18 @@
+{
+  "@@locale": "fi",
+  "basicUsageHowDoISaveABookmark": "Peruskäyttö: miten tallennan kirjanmerkin?",
+  "doYouHaveACoupon": "Onko sinulla kuponki?",
+  "howDoIInstallDeckrOnMultipleComputers": "Miten asennan Deckr:n useisiin tietokoneisiin?",
+  "howDoIInstallTheBrowserExtension": "Miten asennan selainlaajennuksen?",
+  "howDoIInstallTheDesktopApp": "Miten asennan työpöytäsovelluksen?",
+  "howDoSetDeckrToAutoLaunchOnStartup": "Miten Deckr asetetaan käynnistymään automaattisesti käynnistyksen yhteydessä?",
+  "whatAreActivations": "Mitä ovat \"aktivoinnit\"?",
+  "whatHappensWhenMyLicenseExpires": "Mitä tapahtuu, kun lisenssini päättyy?",
+  "whatIsALicenseKey": "Mikä on lisenssiavain?",
+  "whatIsThatBlueIconInMyMenubar": "Mikä on tuo sininen kuvake valikkorivilläni?",
+  "whatIsYourPrivacyPolicy": "Mikä on tietosuojakäytäntönne?",
+  "whatSYourRefundPolicy": "Mikä on palautuskäytäntösi?",
+  "whyDoIHaveToSignInToAccessTheDeckStore": "Miksi minun on kirjauduttava sisään päästäkseni Deck-kauppaan?",
+  "whyIsThereAnBrowserExtensionAndADesktopApplication": "Miksi on olemassa selainlaajennus ja työpöytäsovellus?",
+  "whyProblemDoesDeckrSolve": "Miksi Deckr ratkaisee ongelman?"
+}

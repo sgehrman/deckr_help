@@ -35,85 +35,84 @@ class HelpData {
 
     switch (id) {
       case HelpDataId.whatIsALicenseKey:
-        title = ParagrafSpec.md(l10n.whatIsALicenseKeyH);
+        title = ParagrafSpec.md(l10n.whatIsALicenseKey);
         message = _HelpParagrafs.withId(id);
         break;
       case HelpDataId.whatAreActivations:
-        title = const ParagrafSpec.md('What are "activations"?');
+        title = ParagrafSpec.md(l10n.whatAreActivations);
         message = _HelpParagrafs.withId(id);
         break;
 
       case HelpDataId.whyShareBookmarks:
-        title = const ParagrafSpec.md('Why problem does Deckr solve?');
+        title = ParagrafSpec.md(l10n.whyProblemDoesDeckrSolve);
         message = _HelpParagrafs.withId(id);
         break;
 
       case HelpDataId.howToSetBookmark:
-        title = const ParagrafSpec.md('Basic usage: how do I save a bookmark?');
+        title = ParagrafSpec.md(l10n.basicUsageHowDoISaveABookmark);
         message = _HelpParagrafs.withId(id);
         break;
 
       case HelpDataId.privacy:
-        title = const ParagrafSpec.md('What is your privacy policy?');
+        title = ParagrafSpec.md(l10n.whatIsYourPrivacyPolicy);
         message = _HelpParagrafs.withId(id);
         break;
 
       case HelpDataId.refunds:
-        title = const ParagrafSpec.md('What\'s your refund policy?');
+        title = ParagrafSpec.md(l10n.whatSYourRefundPolicy);
         message = _HelpParagrafs.withId(id);
         break;
 
       case HelpDataId.coupons:
-        title = const ParagrafSpec.md('Do you have a coupon?');
+        title = ParagrafSpec.md(l10n.doYouHaveACoupon);
         message = _HelpParagrafs.withId(id);
         break;
 
       case HelpDataId.extensionAndApp:
-        title = const ParagrafSpec.md(
-          'Why is there an browser extension and a desktop application?',
+        title = ParagrafSpec.md(
+          l10n.whyIsThereAnBrowserExtensionAndADesktopApplication,
         );
         message = _HelpParagrafs.withId(id);
         break;
 
       case HelpDataId.expiredLicense:
-        title = const ParagrafSpec.md('What happens when my license expires?');
+        title = ParagrafSpec.md(l10n.whatHappensWhenMyLicenseExpires);
         message = _HelpParagrafs.withId(id);
         break;
 
       case HelpDataId.blueIconOnMenuBar:
-        title = const ParagrafSpec.md('What is that blue icon in my menubar?');
+        title = ParagrafSpec.md(l10n.whatIsThatBlueIconInMyMenubar);
         message = _HelpParagrafs.withId(id);
         break;
 
       case HelpDataId.whySignIn:
-        title = const ParagrafSpec.md(
-          'Why do I have to sign-in to access the Deck store?',
+        title = ParagrafSpec.md(
+          l10n.whyDoIHaveToSignInToAccessTheDeckStore,
         );
         message = _HelpParagrafs.withId(id);
         break;
 
       case HelpDataId.installingDesktopApp:
-        title = const ParagrafSpec.md('How do I install the desktop app?');
+        title = ParagrafSpec.md(l10n.howDoIInstallTheDesktopApp);
         message = _HelpParagrafs.withId(id);
         break;
 
       case HelpDataId.multipleComputers:
-        title = const ParagrafSpec.md(
-          'How do I install Deckr on multiple computers?',
+        title = ParagrafSpec.md(
+          l10n.howDoIInstallDeckrOnMultipleComputers,
         );
         message = _HelpParagrafs.withId(id);
         break;
 
       case HelpDataId.autoLaunchOnStartup:
-        title = const ParagrafSpec.md(
-          'How do set Deckr to auto launch on startup?',
+        title = ParagrafSpec.md(
+          l10n.howDoSetDeckrToAutoLaunchOnStartup,
         );
         message = _HelpParagrafs.withId(id);
         break;
 
       case HelpDataId.installingTheExtension:
-        title =
-            const ParagrafSpec.md('How do I install the browser extension?');
+        title = ParagrafSpec.md(l10n.howDoIInstallTheBrowserExtension);
         message = _HelpParagrafs.withId(id);
         break;
     }

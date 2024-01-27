@@ -1,0 +1,18 @@
+{
+  "@@locale": "da",
+  "basicUsageHowDoISaveABookmark": "Grundlæggende brug: Hvordan gemmer jeg et bogmærke?",
+  "doYouHaveACoupon": "Har du en kupon?",
+  "howDoIInstallDeckrOnMultipleComputers": "Hvordan installerer jeg Deckr på flere computere?",
+  "howDoIInstallTheBrowserExtension": "Hvordan installerer jeg browserudvidelsen?",
+  "howDoIInstallTheDesktopApp": "Hvordan installerer jeg desktop-appen?",
+  "howDoSetDeckrToAutoLaunchOnStartup": "Hvordan indstiller man Deckr til at starte automatisk ved opstart?",
+  "whatAreActivations": "Hvad er \"aktiveringer\"?",
+  "whatHappensWhenMyLicenseExpires": "Hvad sker der, når min licens udløber?",
+  "whatIsALicenseKey": "Hvad er en licensnøgle?",
+  "whatIsThatBlueIconInMyMenubar": "Hvad er det blå ikon i min menulinje?",
+  "whatIsYourPrivacyPolicy": "Hvad er jeres privatlivspolitik?",
+  "whatSYourRefundPolicy": "Hvad er jeres refunderingspolitik?",
+  "whyDoIHaveToSignInToAccessTheDeckStore": "Hvorfor skal jeg logge ind for at få adgang til Deck-butikken?",
+  "whyIsThereAnBrowserExtensionAndADesktopApplication": "Hvorfor er der en browserudvidelse og en desktop-applikation?",
+  "whyProblemDoesDeckrSolve": "Hvilket problem løser Deckr?"
+}

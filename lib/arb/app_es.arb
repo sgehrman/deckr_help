@@ -1,4 +1,18 @@
 {
   "@@locale": "es",
-  "whatIsALicenseKeyH": "What is a license key?"
+  "basicUsageHowDoISaveABookmark": "Uso básico: ¿cómo guardo un favorito?",
+  "doYouHaveACoupon": "¿Tienes un cupón?",
+  "howDoIInstallDeckrOnMultipleComputers": "¿Cómo instalo el Deckr en varios ordenadores?",
+  "howDoIInstallTheBrowserExtension": "¿Cómo instalo la extensión del navegador?",
+  "howDoIInstallTheDesktopApp": "¿Cómo instalo la aplicación de escritorio?",
+  "howDoSetDeckrToAutoLaunchOnStartup": "¿Cómo configurar el Deckr para que se inicie automáticamente al arrancar?",
+  "whatAreActivations": "¿Qué son las \"activaciones\"?",
+  "whatHappensWhenMyLicenseExpires": "¿Qué ocurre cuando caduca mi licencia?",
+  "whatIsALicenseKey": "¿Qué es una clave de licencia?",
+  "whatIsThatBlueIconInMyMenubar": "¿Qué es ese icono azul de mi barra de menús?",
+  "whatIsYourPrivacyPolicy": "¿Cuál es tu política de privacidad?",
+  "whatSYourRefundPolicy": "¿Cuál es tu política de devoluciones?",
+  "whyDoIHaveToSignInToAccessTheDeckStore": "¿Por qué tengo que registrarme para acceder a la tienda Deck?",
+  "whyIsThereAnBrowserExtensionAndADesktopApplication": "¿Por qué hay una extensión para el navegador y una aplicación de escritorio?",
+  "whyProblemDoesDeckrSolve": "¿Qué problema resuelve el Deckr?"
 }
