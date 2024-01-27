@@ -93,11 +93,11 @@ abstract class AppLocalizations {
     Locale('es')
   ];
 
-  /// No description provided for @whatIsALicenseKey.
+  /// No description provided for @whatIsALicenseKeyH.
   ///
   /// In en, this message translates to:
   /// **'What is a license key?'**
-  String get whatIsALicenseKey;
+  String get whatIsALicenseKeyH;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

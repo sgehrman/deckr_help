@@ -35,7 +35,7 @@ class HelpData {
 
     switch (id) {
       case HelpDataId.whatIsALicenseKey:
-        title = ParagrafSpec.md(l10n.whatIsALicenseKey);
+        title = ParagrafSpec.md(l10n.whatIsALicenseKeyH);
         message = _HelpParagrafs.withId(id);
         break;
       case HelpDataId.whatAreActivations:
