@@ -5,5 +5,5 @@ class AppLocalizationsEs extends AppLocalizations {
   AppLocalizationsEs([String locale = 'es']) : super(locale);
 
   @override
-  String get whatIsALicenseKey => 'What is a license key?';
+  String get whatIsALicenseKey => 'Was ist el licenso kee?';
 }

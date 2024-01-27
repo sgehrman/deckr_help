@@ -1,5 +1,7 @@
+import 'package:deckr_help/l10n/app_localizations.dart';
 import 'package:deckr_help/src/constants.dart';
 import 'package:dfc_flutter/dfc_flutter_web_lite.dart';
+import 'package:flutter/material.dart';
 
 enum HelpDataId {
   whatIsALicenseKey,
@@ -25,13 +27,15 @@ class HelpData {
     required this.message,
   });
 
-  factory HelpData.withId(HelpDataId id) {
+  factory HelpData.withId(BuildContext context, HelpDataId id) {
     ParagrafSpec title;
     ParagrafSpec message;
 
+    final l10n = AppLocalizations.of(context);
+
     switch (id) {
       case HelpDataId.whatIsALicenseKey:
-        title = const ParagrafSpec.md('What is a license key?');
+        title = ParagrafSpec.md(l10n.whatIsALicenseKey);
         message = _HelpParagrafs.withId(id);
         break;
       case HelpDataId.whatAreActivations:
@@ -128,30 +132,30 @@ class HelpData {
 
   // ===========================================================
 
-  static List<HelpData> get all =>
-      HelpDataId.values.map((e) => HelpData.withId(e)).toList();
+  static List<HelpData> all(BuildContext context) =>
+      HelpDataId.values.map((e) => HelpData.withId(context, e)).toList();
 
-  static List<HelpData> get aboutDialog => [
-        HelpData.withId(HelpDataId.extensionAndApp),
-        HelpData.withId(HelpDataId.blueIconOnMenuBar),
-        HelpData.withId(HelpDataId.whySignIn),
-        HelpData.withId(HelpDataId.howToSetBookmark),
-        HelpData.withId(HelpDataId.privacy),
+  static List<HelpData> aboutDialog(BuildContext context) => [
+        HelpData.withId(context, HelpDataId.extensionAndApp),
+        HelpData.withId(context, HelpDataId.blueIconOnMenuBar),
+        HelpData.withId(context, HelpDataId.whySignIn),
+        HelpData.withId(context, HelpDataId.howToSetBookmark),
+        HelpData.withId(context, HelpDataId.privacy),
       ];
 
-  static List<HelpData> get purchasingDialog => [
-        HelpData.withId(HelpDataId.whatIsALicenseKey),
-        HelpData.withId(HelpDataId.whatAreActivations),
-        HelpData.withId(HelpDataId.coupons),
-        HelpData.withId(HelpDataId.refunds),
-        HelpData.withId(HelpDataId.expiredLicense),
+  static List<HelpData> purchasingDialog(BuildContext context) => [
+        HelpData.withId(context, HelpDataId.whatIsALicenseKey),
+        HelpData.withId(context, HelpDataId.whatAreActivations),
+        HelpData.withId(context, HelpDataId.coupons),
+        HelpData.withId(context, HelpDataId.refunds),
+        HelpData.withId(context, HelpDataId.expiredLicense),
       ];
 
-  static List<HelpData> get installationDialog => [
-        HelpData.withId(HelpDataId.installingDesktopApp),
-        HelpData.withId(HelpDataId.installingTheExtension),
-        HelpData.withId(HelpDataId.multipleComputers),
-        HelpData.withId(HelpDataId.autoLaunchOnStartup),
+  static List<HelpData> installationDialog(BuildContext context) => [
+        HelpData.withId(context, HelpDataId.installingDesktopApp),
+        HelpData.withId(context, HelpDataId.installingTheExtension),
+        HelpData.withId(context, HelpDataId.multipleComputers),
+        HelpData.withId(context, HelpDataId.autoLaunchOnStartup),
       ];
 }
 
