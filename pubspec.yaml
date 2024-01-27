@@ -12,6 +12,8 @@ dependencies:
     git: https://github.com/sgehrman/dfc_flutter
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
 
 dev_dependencies:
   # must include this with dfc_lints. see https://github.com/dart-code-checker/dart-code-metrics/issues/254
@@ -19,3 +21,7 @@ dev_dependencies:
     git: https://github.com/paulkastel/dart-code-metrics
   dfc_lints:
     git: https://github.com/sgehrman/dfc_lints
+
+flutter:
+  # for flutter_localizations
+  generate: true
