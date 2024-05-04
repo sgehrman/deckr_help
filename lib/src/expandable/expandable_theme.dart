@@ -106,7 +106,7 @@ class ExpandableThemeData {
   }
 
   @override
-  bool operator ==(dynamic other) {
+  bool operator ==(Object other) {
     if (identical(this, other)) {
       return true;
     } else if (other is ExpandableThemeData) {

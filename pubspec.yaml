@@ -2,10 +2,10 @@ name: deckr_help
 description: Deckr Help
 version: 1.0.1
 homepage: distantfutu.re
-publish_to: "none"
+publish_to: 'none'
 
 environment:
-  sdk: ">=3.2.3 <4.0.0"
+  sdk: '>=3.3.4 <4.0.0'
 
 dependencies:
   dfc_flutter:
@@ -14,7 +14,7 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  http: ^1.2.0
+  http: ^1.2.1
 
 dev_dependencies:
   # must include this with dfc_lints. see https://github.com/dart-code-checker/dart-code-metrics/issues/254
