@@ -159,6 +159,13 @@ class HelpData {
         HelpData.withId(context, HelpDataId.autoLaunchOnStartup),
       ];
 
+  static void _writeItem(ParagrafSpec item, StringBuffer buffer) {
+    buffer.write(item.text);
+    for (final c in item.children) {
+      _writeItem(c, buffer);
+    }
+  }
+
   static String toHtml(BuildContext context) {
     final buffer = StringBuffer();
 
@@ -173,9 +180,15 @@ class HelpData {
     final data = HelpData.all(context);
 
     for (final item in data) {
-      buffer.write('<h4>${item.title.text}</h4>');
-      buffer.write('<p>${item.message.text}</p>');
+      buffer.write('<h4>');
+      _writeItem(item.title, buffer);
+      buffer.write('</h4>');
+
+      buffer.write('<p>');
+      _writeItem(item.message, buffer);
+      buffer.write('</p>');
     }
+
     buffer.write('</body>');
     buffer.write('</html>');
 
