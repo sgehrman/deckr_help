@@ -173,8 +173,8 @@ class HelpData {
     final data = HelpData.all(context);
 
     for (final item in data) {
-      buffer.write('<h4>${item.title}</h4>');
-      buffer.write('<p>${item.message}</p>');
+      buffer.write('<h4>${item.title.text}</h4>');
+      buffer.write('<p>${item.message.text}</p>');
     }
     buffer.write('</body>');
     buffer.write('</html>');
