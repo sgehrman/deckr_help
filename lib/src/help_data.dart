@@ -19,6 +19,7 @@ enum HelpDataId {
   installingTheExtension,
   multipleComputers,
   autoLaunchOnStartup,
+  scalingTheUI,
 }
 
 class HelpData {
@@ -34,6 +35,12 @@ class HelpData {
     final l10n = AppLocalizations.of(context);
 
     switch (id) {
+      case HelpDataId.scalingTheUI:
+        title = const ParagrafSpec.md(
+          'The user inteface is too small or too large.',
+        );
+        message = _HelpParagrafs.withId(context, id);
+        break;
       case HelpDataId.whatIsALicenseKey:
         title = ParagrafSpec.md(l10n.whatIsALicenseKey);
         message = _HelpParagrafs.withId(context, id);
@@ -139,6 +146,7 @@ class HelpData {
   static List<HelpData> aboutDialog(BuildContext context) => [
         HelpData.withId(context, HelpDataId.extensionAndApp),
         HelpData.withId(context, HelpDataId.blueIconOnMenuBar),
+        HelpData.withId(context, HelpDataId.scalingTheUI),
         HelpData.withId(context, HelpDataId.whySignIn),
         HelpData.withId(context, HelpDataId.howToSetBookmark),
         HelpData.withId(context, HelpDataId.privacy),
@@ -205,6 +213,16 @@ class _HelpParagrafs {
     final l10n = AppLocalizations.of(context);
 
     switch (id) {
+      case HelpDataId.scalingTheUI:
+        return ParagrafSpec.sml(
+          'If the user interface is too small to read, or too large you can adjust this using the browsers "Zoom" settings.',
+          children: [
+            ParagrafSpec.sml(
+              'Once you set the zoom level it will remember that setting for this page only and not affect other pages.',
+              spaces: 2,
+            ),
+          ],
+        );
       case HelpDataId.whatIsALicenseKey:
         return ParagrafSpec.sml(
           l10n.whenYouPurchaseDeckrYouAreSentALicenseKey,
