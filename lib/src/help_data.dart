@@ -220,7 +220,6 @@ class _HelpParagrafs {
           children: [
             ParagrafSpec.sml(
               l10n.onceYouSetTheZoomLevelItWi,
-              spaces: 2,
             ),
           ],
         );
