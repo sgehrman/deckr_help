@@ -199,11 +199,23 @@ abstract class AppLocalizations {
   /// **'How do I install the desktop app?'**
   String get howDoIInstallTheDesktopApp;
 
+  /// No description provided for @howDoIScaleDeckrSUserInterface.
+  ///
+  /// In en, this message translates to:
+  /// **'How do I scale Deckr\'s user interface?'**
+  String get howDoIScaleDeckrSUserInterface;
+
   /// No description provided for @howDoSetDeckrToAutoLaunchOnStartup.
   ///
   /// In en, this message translates to:
   /// **'How do set Deckr to auto launch on startup?'**
   String get howDoSetDeckrToAutoLaunchOnStartup;
+
+  /// No description provided for @ifTheUserInterfaceIsTooSmallToRead.
+  ///
+  /// In en, this message translates to:
+  /// **'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.'**
+  String get ifTheUserInterfaceIsTooSmallToRead;
 
   /// No description provided for @ifYouOpenTheAboutDeckrMenuItem.
   ///
@@ -246,6 +258,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'None of your bookmarks or personal information is ever uploaded to our cloud unless you choose to backup your decks.'**
   String get noneOfYourBookmarksOrPersonalInformation;
+
+  /// No description provided for @onceYouSetTheZoomLevelItWi.
+  ///
+  /// In en, this message translates to:
+  /// **'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.'**
+  String get onceYouSetTheZoomLevelItWi;
 
   /// No description provided for @onLinuxClickTheLinkOnTheHomePage.
   ///

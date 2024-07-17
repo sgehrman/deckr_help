@@ -36,8 +36,8 @@ class HelpData {
 
     switch (id) {
       case HelpDataId.scalingTheUI:
-        title = const ParagrafSpec.md(
-          'The user inteface is too small or too large.',
+        title = ParagrafSpec.md(
+          l10n.howDoIScaleDeckrSUserInterface,
         );
         message = _HelpParagrafs.withId(context, id);
         break;
@@ -215,10 +215,11 @@ class _HelpParagrafs {
     switch (id) {
       case HelpDataId.scalingTheUI:
         return ParagrafSpec.sml(
-          'If the user interface is too small to read, or too large you can adjust this using the browsers "Zoom" settings.',
+          l10n.ifTheUserInterfaceIsTooSmallToRead,
+          newlines: 2,
           children: [
             ParagrafSpec.sml(
-              'Once you set the zoom level it will remember that setting for this page only and not affect other pages.',
+              l10n.onceYouSetTheZoomLevelItWi,
               spaces: 2,
             ),
           ],

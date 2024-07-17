@@ -47,7 +47,13 @@ class AppLocalizationsDa extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => 'Hvordan installerer jeg desktop-appen?';
 
   @override
+  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+
+  @override
   String get howDoSetDeckrToAutoLaunchOnStartup => 'Hvordan indstiller man Deckr til at starte automatisk ved opstart?';
+
+  @override
+  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => 'Hvis du åbner menupunktet \"Om Deckr\", kan du indstille farven og størrelsen på dette ikon. Og du kan indstille \"Launch at Startup\", som får Deckr til at starte efter en genstart.';
@@ -69,6 +75,9 @@ class AppLocalizationsDa extends AppLocalizations {
 
   @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Ingen af dine bogmærker eller personlige oplysninger bliver nogensinde uploadet til vores sky, medmindre du vælger at tage backup af dine dæk.';
+
+  @override
+  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => 'På Linux skal du klikke på linket på hjemmesiden for at gå til installationsvejledningen på Flatpak.org.';

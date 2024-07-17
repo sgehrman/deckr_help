@@ -47,7 +47,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => '如何安装桌面应用程序？';
 
   @override
+  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+
+  @override
   String get howDoSetDeckrToAutoLaunchOnStartup => '如何设置 Deckr 在启动时自动启动？';
+
+  @override
+  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => '如果打开 \"关于 Deckr \"菜单项，可以设置该图标的颜色和大小。还可以设置 \"启动时启动\"，使 Deckr 在重启后启动。';
@@ -69,6 +75,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get noneOfYourBookmarksOrPersonalInformation => '您的任何书签或个人信息都不会上传到我们的云端，除非您选择备份甲板。';
+
+  @override
+  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => '在 Linux 上，点击主页上的链接，即可转到 Flatpak.org 上的安装说明。';

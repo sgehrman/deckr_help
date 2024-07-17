@@ -47,7 +47,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => 'How do I install the desktop app?';
 
   @override
+  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+
+  @override
   String get howDoSetDeckrToAutoLaunchOnStartup => 'How do set Deckr to auto launch on startup?';
+
+  @override
+  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => 'If you open the \"About Deckr\" menu item, you can set the color and size of this icon. And you can set \"Launch at Startup\" which makes Deckr launch after a restart.';
@@ -69,6 +75,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get noneOfYourBookmarksOrPersonalInformation => 'None of your bookmarks or personal information is ever uploaded to our cloud unless you choose to backup your decks.';
+
+  @override
+  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => 'On Linux, click the link on the home page to go to the install instructions on Flatpak.org.';

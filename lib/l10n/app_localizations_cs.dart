@@ -47,7 +47,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => 'Jak nainstaluji aplikaci pro stolní počítače?';
 
   @override
+  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+
+  @override
   String get howDoSetDeckrToAutoLaunchOnStartup => 'Jak nastavit automatické spuštění Deckr při startu?';
+
+  @override
+  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => 'Pokud otevřete položku nabídky \"O Deckr\", můžete nastavit barvu a velikost této ikony. A můžete nastavit \"Launch at Startup\" (Spustit při spuštění), což způsobí, že se Deckr spustí po restartu.';
@@ -69,6 +75,9 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Žádné vaše záložky ani osobní údaje se nikdy neukládají do našeho cloudu, pokud se nerozhodnete své balíčky zálohovat.';
+
+  @override
+  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => 'V systému Linux klikněte na odkaz na domovské stránce a přejděte na pokyny k instalaci na Flatpak.org.';
