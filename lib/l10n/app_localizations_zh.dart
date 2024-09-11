@@ -1,5 +1,7 @@
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Chinese (`zh`).
 class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
@@ -47,13 +49,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => '如何安装桌面应用程序？';
 
   @override
-  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+  String get howDoIScaleDeckrSUserInterface => '如何缩放 Deckr 的用户界面？';
 
   @override
   String get howDoSetDeckrToAutoLaunchOnStartup => '如何设置 Deckr 在启动时自动启动？';
 
   @override
-  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
+  String get ifTheUserInterfaceIsTooSmallToRead => '如果用户界面太小无法阅读或太大，可以使用网络浏览器内置的 \"缩放 \"设置进行调整。';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => '如果打开 \"关于 Deckr \"菜单项，可以设置该图标的颜色和大小。还可以设置 \"启动时启动\"，使 Deckr 在重启后启动。';
@@ -74,10 +76,16 @@ class AppLocalizationsZh extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => '新建一个标签页，打开 Deckr，在左侧查看打开的标签页列表。将标签拖动到中间一列的书签甲板上。';
 
   @override
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+
+  @override
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+
+  @override
   String get noneOfYourBookmarksOrPersonalInformation => '您的任何书签或个人信息都不会上传到我们的云端，除非您选择备份甲板。';
 
   @override
-  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
+  String get onceYouSetTheZoomLevelItWi => '一旦设置了缩放级别，该设置将只用于 Deckr 的页面，而不会影响其他页面。';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => '在 Linux 上，点击主页上的链接，即可转到 Flatpak.org 上的安装说明。';
@@ -90,6 +98,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ourGoalIsToBringBackTheGood => '我们的目标是让人们重温网上冲浪的美好时光。';
+
+  @override
+  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
 
   @override
   String get signingInIsJustToProtectAgainst => '登录只是为了防止巨魔和匿名麻烦制造者。';

@@ -1,5 +1,7 @@
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Russian (`ru`).
 class AppLocalizationsRu extends AppLocalizations {
   AppLocalizationsRu([String locale = 'ru']) : super(locale);
@@ -47,13 +49,13 @@ class AppLocalizationsRu extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => 'Как установить приложение для рабочего стола?';
 
   @override
-  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+  String get howDoIScaleDeckrSUserInterface => 'Как масштабировать пользовательский интерфейс Deckr?';
 
   @override
   String get howDoSetDeckrToAutoLaunchOnStartup => 'Как настроить Deckr на автозапуск при старте?';
 
   @override
-  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
+  String get ifTheUserInterfaceIsTooSmallToRead => 'Если пользовательский интерфейс слишком мал для чтения или слишком велик, ты можешь настроить его с помощью встроенной в браузеры настройки \"Zoom\".';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => 'Если ты откроешь пункт меню \"About Deckr\", то сможешь настроить цвет и размер этой иконки. А еще ты можешь установить параметр \"Launch at Startup\", который заставит Deckr запускаться после перезапуска.';
@@ -74,10 +76,16 @@ class AppLocalizationsRu extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => 'Сделай новую вкладку, чтобы появился Deckr, и посмотри слева на список открытых вкладок. Перетащи вкладку на колоду закладок в средней колонке.';
 
   @override
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+
+  @override
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+
+  @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Ни одна из твоих закладок или личная информация никогда не загружается в наше облако, если только ты не решишь сделать резервную копию своих дек.';
 
   @override
-  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
+  String get onceYouSetTheZoomLevelItWi => 'Как только ты установишь уровень масштабирования, он будет использовать эту настройку только для страницы Deckr и не будет влиять на другие страницы.';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => 'В Linux нажми на ссылку на главной странице, чтобы перейти к инструкции по установке на Flatpak.org.';
@@ -90,6 +98,9 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Наша цель - вернуть старые добрые времена веб-серфинга.';
+
+  @override
+  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
 
   @override
   String get signingInIsJustToProtectAgainst => 'Регистрация нужна только для того, чтобы защититься от троллей и анонимных создателей проблем.';

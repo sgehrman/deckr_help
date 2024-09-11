@@ -19,6 +19,8 @@ import 'app_localizations_ru.dart';
 import 'app_localizations_sv.dart';
 import 'app_localizations_zh.dart';
 
+// ignore_for_file: type=lint
+
 /// Callers can lookup localized strings with an instance of AppLocalizations
 /// returned by `AppLocalizations.of(context)`.
 ///
@@ -253,6 +255,18 @@ abstract class AppLocalizations {
   /// **'Make a new tab to bring up Deckr and look on the left side for the list of open tabs. Drag the tab to a bookmark deck in the middle column.'**
   String get makeANewTabToBringUpDeckrAndLook;
 
+  /// No description provided for @manyElementsInTheUserInterfaceHaveContextualMenus.
+  ///
+  /// In en, this message translates to:
+  /// **'Many elements in the user interface have contextual menus'**
+  String get manyElementsInTheUserInterfaceHaveContextualMenus;
+
+  /// No description provided for @manyUserfulFeaturesAreAvailableUsingTheseMenus.
+  ///
+  /// In en, this message translates to:
+  /// **'Many userful features are available using these menus'**
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus;
+
   /// No description provided for @noneOfYourBookmarksOrPersonalInformation.
   ///
   /// In en, this message translates to:
@@ -288,6 +302,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Our goal is to bring back the good ol days of surfing the web.'**
   String get ourGoalIsToBringBackTheGood;
+
+  /// No description provided for @rightClickOnItemsToShowTheContextualMenus.
+  ///
+  /// In en, this message translates to:
+  /// **'Right click on items to show the contextual menus'**
+  String get rightClickOnItemsToShowTheContextualMenus;
 
   /// No description provided for @signingInIsJustToProtectAgainst.
   ///

@@ -1,5 +1,7 @@
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Japanese (`ja`).
 class AppLocalizationsJa extends AppLocalizations {
   AppLocalizationsJa([String locale = 'ja']) : super(locale);
@@ -47,13 +49,13 @@ class AppLocalizationsJa extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => 'デスクトップアプリのインストール方法は？';
 
   @override
-  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+  String get howDoIScaleDeckrSUserInterface => 'Deckrのユーザーインターフェイスを拡大縮小するには？';
 
   @override
   String get howDoSetDeckrToAutoLaunchOnStartup => 'Deckrを起動時に自動起動するように設定するには？';
 
   @override
-  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
+  String get ifTheUserInterfaceIsTooSmallToRead => 'ユーザーインターフェイスが小さすぎて読めない、あるいは大きすぎる場合は、ウェブブラウザに内蔵されている「ズーム」設定を使って調整できる。';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => 'About Deckr」メニューを開くと、このアイコンの色とサイズを設定できる。また、再起動後にDeckrを起動させる \"Launch at Startup \"を設定することもできる。';
@@ -74,10 +76,16 @@ class AppLocalizationsJa extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => '新しいタブを作ってDeckrを表示させ、左側の開いているタブのリストを見る。タブを真ん中の欄のブックマークデッキにドラッグする。';
 
   @override
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+
+  @override
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+
+  @override
   String get noneOfYourBookmarksOrPersonalInformation => 'あなたがデッキのバックアップを選択しない限り、あなたのブックマークや個人情報がクラウドにアップロードされることはない。';
 
   @override
-  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
+  String get onceYouSetTheZoomLevelItWi => '一度ズームレベルを設定すると、その設定はDeckrのページだけに使われ、他のページには影響しない。';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => 'Linuxの場合、ホームページのリンクをクリックすると、Flatpak.orgのインストール手順に飛ぶ。';
@@ -90,6 +98,9 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get ourGoalIsToBringBackTheGood => '私たちの目標は、古き良き時代のネットサーフィンを取り戻すことだ。';
+
+  @override
+  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
 
   @override
   String get signingInIsJustToProtectAgainst => 'サインインは、荒らしや匿名のトラブルメーカーから身を守るためのものだ。';

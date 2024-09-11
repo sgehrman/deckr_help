@@ -1,5 +1,7 @@
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for French (`fr`).
 class AppLocalizationsFr extends AppLocalizations {
   AppLocalizationsFr([String locale = 'fr']) : super(locale);
@@ -47,13 +49,13 @@ class AppLocalizationsFr extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => 'Comment installer l\'application de bureau ?';
 
   @override
-  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+  String get howDoIScaleDeckrSUserInterface => 'Comment puis-je mettre à l\'échelle l\'interface utilisateur du Deckr ?';
 
   @override
   String get howDoSetDeckrToAutoLaunchOnStartup => 'Comment configurer le Deckr pour qu\'il se lance automatiquement au démarrage ?';
 
   @override
-  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
+  String get ifTheUserInterfaceIsTooSmallToRead => 'Si l\'interface utilisateur est trop petite pour être lue ou trop grande, tu peux l\'ajuster en utilisant le paramètre \"Zoom\" intégré au navigateur Web.';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => 'Si tu ouvres le menu \"A propos de Deckr\", tu peux définir la couleur et la taille de cette icône. Tu peux aussi régler l\'option \"Lancer au démarrage\", qui permet de lancer Deckr après un redémarrage.';
@@ -74,10 +76,16 @@ class AppLocalizationsFr extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => 'Crée un nouvel onglet pour faire apparaître Deckr et regarde sur le côté gauche la liste des onglets ouverts. Fais glisser l\'onglet vers une plage de signets dans la colonne du milieu.';
 
   @override
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+
+  @override
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+
+  @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Aucun de tes signets ou de tes informations personnelles n\'est jamais téléchargé sur notre cloud, sauf si tu choisis de sauvegarder tes ponts.';
 
   @override
-  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
+  String get onceYouSetTheZoomLevelItWi => 'Une fois que tu as défini le niveau de zoom, il utilisera ce paramètre uniquement pour la page de Deckr et n\'affectera pas les autres pages.';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => 'Sous Linux, clique sur le lien de la page d\'accueil pour aller aux instructions d\'installation sur Flatpak.org.';
@@ -90,6 +98,9 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Notre objectif est de faire revivre le bon vieux temps de la navigation sur Internet.';
+
+  @override
+  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
 
   @override
   String get signingInIsJustToProtectAgainst => 'L\'inscription est juste pour se protéger contre les trolls et les fauteurs de troubles anonymes.';

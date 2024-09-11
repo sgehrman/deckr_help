@@ -1,5 +1,7 @@
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Swedish (`sv`).
 class AppLocalizationsSv extends AppLocalizations {
   AppLocalizationsSv([String locale = 'sv']) : super(locale);
@@ -47,13 +49,13 @@ class AppLocalizationsSv extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => 'Hur installerar jag desktop-appen?';
 
   @override
-  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+  String get howDoIScaleDeckrSUserInterface => 'Hur skalar jag Deckr:s användargränssnitt?';
 
   @override
   String get howDoSetDeckrToAutoLaunchOnStartup => 'Hur ställer man in Deckr så att den startar automatiskt vid start?';
 
   @override
-  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
+  String get ifTheUserInterfaceIsTooSmallToRead => 'Om användargränssnittet är för litet eller för stort för att kunna läsas kan du justera det med hjälp av webbläsarens inbyggda \"Zoom\"-inställning.';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => 'Om du öppnar menyalternativet \"Om Deckr\" kan du ställa in färg och storlek på denna ikon. Du kan också ställa in \"Starta vid start\" så att Deckr startas efter en omstart.';
@@ -74,10 +76,16 @@ class AppLocalizationsSv extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => 'Skapa en ny flik för att öppna Deckr och titta på vänster sida efter listan över öppna flikar. Dra fliken till ett bokmärkesdäck i mittkolumnen.';
 
   @override
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+
+  @override
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+
+  @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Inga av dina bokmärken eller personuppgifter laddas någonsin upp till vårt moln om du inte väljer att säkerhetskopiera dina däck.';
 
   @override
-  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
+  String get onceYouSetTheZoomLevelItWi => 'När du har ställt in zoomnivån kommer den inställningen endast att användas för Deckr:s sida och inte påverka andra sidor.';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => 'På Linux klickar du på länken på startsidan för att gå till installationsanvisningarna på Flatpak.org.';
@@ -90,6 +98,9 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Vårt mål är att få tillbaka den gamla goda tiden av att surfa på webben.';
+
+  @override
+  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
 
   @override
   String get signingInIsJustToProtectAgainst => 'Att logga in är bara för att skydda mot troll och anonyma bråkmakare.';

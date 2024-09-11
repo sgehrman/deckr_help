@@ -1,5 +1,7 @@
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Italian (`it`).
 class AppLocalizationsIt extends AppLocalizations {
   AppLocalizationsIt([String locale = 'it']) : super(locale);
@@ -47,13 +49,13 @@ class AppLocalizationsIt extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => 'Come faccio a installare l\'applicazione desktop?';
 
   @override
-  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+  String get howDoIScaleDeckrSUserInterface => 'Come si fa a scalare l\'interfaccia utente del Deckr?';
 
   @override
   String get howDoSetDeckrToAutoLaunchOnStartup => 'Come si imposta l\'avvio automatico del Deckr all\'avvio?';
 
   @override
-  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
+  String get ifTheUserInterfaceIsTooSmallToRead => 'Se l\'interfaccia utente è troppo piccola per essere letta o troppo grande, puoi regolarla utilizzando l\'impostazione \"Zoom\" integrata nei browser web.';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => 'Se apri la voce di menu \"Informazioni su Deckr\", puoi impostare il colore e le dimensioni di questa icona. Inoltre, puoi impostare \"Avvia all\'avvio\" per far sì che il Deckr si avvii dopo un riavvio.';
@@ -74,10 +76,16 @@ class AppLocalizationsIt extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => 'Crea una nuova scheda per visualizzare Deckr e guarda sul lato sinistro l\'elenco delle schede aperte. Trascina la scheda in un segnalibro nella colonna centrale.';
 
   @override
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+
+  @override
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+
+  @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Nessuno dei tuoi segnalibri o delle tue informazioni personali viene mai caricato sul nostro cloud, a meno che tu non scelga di fare un backup dei tuoi mazzi.';
 
   @override
-  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
+  String get onceYouSetTheZoomLevelItWi => 'Una volta impostato il livello di zoom, il sistema utilizzerà tale impostazione solo per la pagina di Deckr e non influenzerà le altre pagine.';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => 'Su Linux, clicca sul link nella pagina iniziale per accedere alle istruzioni di installazione su Flatpak.org.';
@@ -90,6 +98,9 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Il nostro obiettivo è quello di riportare in auge i bei tempi della navigazione sul web.';
+
+  @override
+  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
 
   @override
   String get signingInIsJustToProtectAgainst => 'La registrazione serve solo a proteggere i troll e i disturbatori anonimi.';

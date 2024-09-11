@@ -1,5 +1,7 @@
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for English (`en`).
 class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
@@ -74,6 +76,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => 'Make a new tab to bring up Deckr and look on the left side for the list of open tabs. Drag the tab to a bookmark deck in the middle column.';
 
   @override
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+
+  @override
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+
+  @override
   String get noneOfYourBookmarksOrPersonalInformation => 'None of your bookmarks or personal information is ever uploaded to our cloud unless you choose to backup your decks.';
 
   @override
@@ -90,6 +98,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Our goal is to bring back the good ol days of surfing the web.';
+
+  @override
+  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
 
   @override
   String get signingInIsJustToProtectAgainst => 'Signing in is just to protect against trolls and anonymous trouble makers.';

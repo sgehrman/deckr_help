@@ -1,5 +1,7 @@
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Dutch Flemish (`nl`).
 class AppLocalizationsNl extends AppLocalizations {
   AppLocalizationsNl([String locale = 'nl']) : super(locale);
@@ -47,13 +49,13 @@ class AppLocalizationsNl extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => 'Hoe installeer ik de desktop app?';
 
   @override
-  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+  String get howDoIScaleDeckrSUserInterface => 'Hoe schaal ik de gebruikersinterface van Deckr?';
 
   @override
   String get howDoSetDeckrToAutoLaunchOnStartup => 'Hoe stel je Deckr in om automatisch te starten bij het opstarten?';
 
   @override
-  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
+  String get ifTheUserInterfaceIsTooSmallToRead => 'Als de gebruikersinterface te klein is om te lezen of te groot, kun je deze aanpassen met de ingebouwde \"Zoom\" instelling van de webbrowser.';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => 'Als je het menu-item \"Over Deckr\" opent, kun je de kleur en grootte van dit pictogram instellen. En je kunt \"Launch at Startup\" instellen, zodat Deckr wordt gestart na een herstart.';
@@ -74,10 +76,16 @@ class AppLocalizationsNl extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => 'Maak een nieuw tabblad om Deckr op te roepen en kijk aan de linkerkant naar de lijst met open tabbladen. Sleep het tabblad naar een bladwijzerdek in de middelste kolom.';
 
   @override
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+
+  @override
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+
+  @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Niets van je bladwijzers of persoonlijke informatie wordt ooit naar onze cloud geüpload, tenzij je ervoor kiest om een back-up van je decks te maken.';
 
   @override
-  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
+  String get onceYouSetTheZoomLevelItWi => 'Zodra je het zoomniveau hebt ingesteld, wordt die instelling alleen gebruikt voor de pagina van Deckr en heeft deze geen invloed op andere pagina\'s.';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => 'Klik op Linux op de link op de startpagina om naar de installatie-instructies op Flatpak.org te gaan.';
@@ -90,6 +98,9 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Ons doel is om de goede oude tijd van surfen op het web terug te brengen.';
+
+  @override
+  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
 
   @override
   String get signingInIsJustToProtectAgainst => 'Aanmelden is alleen om je te beschermen tegen trollen en anonieme herrieschoppers.';

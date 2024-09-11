@@ -1,5 +1,7 @@
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Finnish (`fi`).
 class AppLocalizationsFi extends AppLocalizations {
   AppLocalizationsFi([String locale = 'fi']) : super(locale);
@@ -47,13 +49,13 @@ class AppLocalizationsFi extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => 'Miten asennan työpöytäsovelluksen?';
 
   @override
-  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+  String get howDoIScaleDeckrSUserInterface => 'Miten skaalaan Deckr:n käyttöliittymän?';
 
   @override
   String get howDoSetDeckrToAutoLaunchOnStartup => 'Miten Deckr asetetaan käynnistymään automaattisesti käynnistyksen yhteydessä?';
 
   @override
-  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
+  String get ifTheUserInterfaceIsTooSmallToRead => 'Jos käyttöliittymä on liian pieni luettavaksi tai liian suuri, voit säätää sitä verkkoselaimen sisäänrakennetulla \"Zoom\"-asetuksella.';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => 'Jos avaat \"Tietoja Deckr\" -valikkokohdan, voit määrittää tämän kuvakkeen värin ja koon. Voit myös asettaa \"Launch at Startup\" (Käynnistä käynnistyksen yhteydessä), jolloin Deckr käynnistyy uudelleenkäynnistyksen jälkeen.';
@@ -74,10 +76,16 @@ class AppLocalizationsFi extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => 'Tee uusi välilehti Deckr ja katso vasemmalta puolelta luettelo avoimista välilehdistä. Vedä välilehti keskimmäisen sarakkeen kirjanmerkkikannelle.';
 
   @override
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+
+  @override
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+
+  @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Mitään kirjanmerkkejäsi tai henkilökohtaisia tietojasi ei koskaan ladata pilvipalveluumme, ellet halua varmuuskopioida kansioitasi.';
 
   @override
-  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
+  String get onceYouSetTheZoomLevelItWi => 'Kun olet asettanut zoomaustason, se käyttää kyseistä asetusta vain Deckr:n sivulla eikä vaikuta muihin sivuihin.';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => 'Linuxissa voit siirtyä Flatpak.org-sivuston asennusohjeisiin napsauttamalla etusivun linkkiä.';
@@ -90,6 +98,9 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Tavoitteenamme on tuoda takaisin vanhat hyvät ajat surffailusta netissä.';
+
+  @override
+  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
 
   @override
   String get signingInIsJustToProtectAgainst => 'Sisäänkirjautuminen on vain suojautuminen trolleilta ja nimettömiltä häiriköiltä.';

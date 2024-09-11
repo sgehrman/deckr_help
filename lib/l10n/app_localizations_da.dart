@@ -1,5 +1,7 @@
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Danish (`da`).
 class AppLocalizationsDa extends AppLocalizations {
   AppLocalizationsDa([String locale = 'da']) : super(locale);
@@ -47,13 +49,13 @@ class AppLocalizationsDa extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => 'Hvordan installerer jeg desktop-appen?';
 
   @override
-  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+  String get howDoIScaleDeckrSUserInterface => 'Hvordan skalerer jeg Deckr\'s brugergrænseflade?';
 
   @override
   String get howDoSetDeckrToAutoLaunchOnStartup => 'Hvordan indstiller man Deckr til at starte automatisk ved opstart?';
 
   @override
-  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
+  String get ifTheUserInterfaceIsTooSmallToRead => 'Hvis brugergrænsefladen er for lille til at læse eller for stor, kan du justere den ved hjælp af webbrowserens indbyggede \"Zoom\"-indstilling.';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => 'Hvis du åbner menupunktet \"Om Deckr\", kan du indstille farven og størrelsen på dette ikon. Og du kan indstille \"Launch at Startup\", som får Deckr til at starte efter en genstart.';
@@ -74,10 +76,16 @@ class AppLocalizationsDa extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => 'Opret en ny fane for at få Deckr frem, og se listen over åbne faner i venstre side. Træk fanen til et bogmærkedæk i den midterste kolonne.';
 
   @override
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+
+  @override
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+
+  @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Ingen af dine bogmærker eller personlige oplysninger bliver nogensinde uploadet til vores sky, medmindre du vælger at tage backup af dine dæk.';
 
   @override
-  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
+  String get onceYouSetTheZoomLevelItWi => 'Når du har indstillet zoomniveauet, vil den kun bruge denne indstilling på Deckr\'s side og ikke påvirke andre sider.';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => 'På Linux skal du klikke på linket på hjemmesiden for at gå til installationsvejledningen på Flatpak.org.';
@@ -90,6 +98,9 @@ class AppLocalizationsDa extends AppLocalizations {
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Vores mål er at bringe de gode gamle dage tilbage, hvor man surfede på nettet.';
+
+  @override
+  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
 
   @override
   String get signingInIsJustToProtectAgainst => 'At logge ind er kun for at beskytte mod trolls og anonyme ballademagere.';

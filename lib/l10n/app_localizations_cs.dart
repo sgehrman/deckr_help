@@ -1,5 +1,7 @@
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Czech (`cs`).
 class AppLocalizationsCs extends AppLocalizations {
   AppLocalizationsCs([String locale = 'cs']) : super(locale);
@@ -47,13 +49,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => 'Jak nainstaluji aplikaci pro stolní počítače?';
 
   @override
-  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+  String get howDoIScaleDeckrSUserInterface => 'Jak mohu škálovat uživatelské rozhraní Deckr?';
 
   @override
   String get howDoSetDeckrToAutoLaunchOnStartup => 'Jak nastavit automatické spuštění Deckr při startu?';
 
   @override
-  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
+  String get ifTheUserInterfaceIsTooSmallToRead => 'Pokud je uživatelské rozhraní příliš malé na čtení nebo příliš velké, můžete jej upravit pomocí vestavěného nastavení webového prohlížeče \"Zoom\".';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => 'Pokud otevřete položku nabídky \"O Deckr\", můžete nastavit barvu a velikost této ikony. A můžete nastavit \"Launch at Startup\" (Spustit při spuštění), což způsobí, že se Deckr spustí po restartu.';
@@ -74,10 +76,16 @@ class AppLocalizationsCs extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => 'Vytvořte novou kartu, abyste vyvolali Deckr, a podívejte se na levou stranu na seznam otevřených karet. Přetáhněte kartu do balíčku záložek v prostředním sloupci.';
 
   @override
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+
+  @override
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+
+  @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Žádné vaše záložky ani osobní údaje se nikdy neukládají do našeho cloudu, pokud se nerozhodnete své balíčky zálohovat.';
 
   @override
-  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
+  String get onceYouSetTheZoomLevelItWi => 'Po nastavení úrovně přiblížení se toto nastavení použije pouze pro stránku Deckr a neovlivní ostatní stránky.';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => 'V systému Linux klikněte na odkaz na domovské stránce a přejděte na pokyny k instalaci na Flatpak.org.';
@@ -90,6 +98,9 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Naším cílem je vrátit staré dobré časy surfování po webu.';
+
+  @override
+  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
 
   @override
   String get signingInIsJustToProtectAgainst => 'Přihlášení slouží pouze k ochraně před trolly a anonymními potížisty.';

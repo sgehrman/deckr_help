@@ -20,6 +20,7 @@ enum HelpDataId {
   multipleComputers,
   autoLaunchOnStartup,
   scalingTheUI,
+  contextualMenus,
 }
 
 class HelpData {
@@ -35,6 +36,12 @@ class HelpData {
     final l10n = AppLocalizations.of(context);
 
     switch (id) {
+      case HelpDataId.contextualMenus:
+        title = ParagrafSpec.md(
+          l10n.manyElementsInTheUserInterfaceHaveContextualMenus,
+        );
+        message = _HelpParagrafs.withId(context, id);
+        break;
       case HelpDataId.scalingTheUI:
         title = ParagrafSpec.md(
           l10n.howDoIScaleDeckrSUserInterface,
@@ -147,6 +154,7 @@ class HelpData {
         HelpData.withId(context, HelpDataId.extensionAndApp),
         HelpData.withId(context, HelpDataId.blueIconOnMenuBar),
         HelpData.withId(context, HelpDataId.scalingTheUI),
+        HelpData.withId(context, HelpDataId.contextualMenus),
         HelpData.withId(context, HelpDataId.whySignIn),
         HelpData.withId(context, HelpDataId.howToSetBookmark),
         HelpData.withId(context, HelpDataId.privacy),
@@ -213,6 +221,16 @@ class _HelpParagrafs {
     final l10n = AppLocalizations.of(context);
 
     switch (id) {
+      case HelpDataId.contextualMenus:
+        return ParagrafSpec.sml(
+          l10n.rightClickOnItemsToShowTheContextualMenus,
+          newlines: 2,
+          children: [
+            ParagrafSpec.sml(
+              l10n.manyUserfulFeaturesAreAvailableUsingTheseMenus,
+            ),
+          ],
+        );
       case HelpDataId.scalingTheUI:
         return ParagrafSpec.sml(
           l10n.ifTheUserInterfaceIsTooSmallToRead,

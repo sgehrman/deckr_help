@@ -1,5 +1,7 @@
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for German (`de`).
 class AppLocalizationsDe extends AppLocalizations {
   AppLocalizationsDe([String locale = 'de']) : super(locale);
@@ -47,13 +49,13 @@ class AppLocalizationsDe extends AppLocalizations {
   String get howDoIInstallTheDesktopApp => 'Wie kann ich die Desktop-App installieren?';
 
   @override
-  String get howDoIScaleDeckrSUserInterface => 'How do I scale Deckr\'s user interface?';
+  String get howDoIScaleDeckrSUserInterface => 'Wie kann ich die Benutzeroberfläche des Deckr skalieren?';
 
   @override
   String get howDoSetDeckrToAutoLaunchOnStartup => 'Wie kann ich den Deckr so einstellen, dass er beim Start automatisch startet?';
 
   @override
-  String get ifTheUserInterfaceIsTooSmallToRead => 'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.';
+  String get ifTheUserInterfaceIsTooSmallToRead => 'Wenn die Benutzeroberfläche zu klein oder zu groß ist, kannst du sie mit der eingebauten \"Zoom\"-Einstellung des Webbrowsers anpassen.';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem => 'Wenn du den Menüpunkt \"Über Deckr\" öffnest, kannst du die Farbe und Größe dieses Symbols einstellen. Außerdem kannst du \"Beim Start starten\" einstellen, damit Deckr nach einem Neustart gestartet wird.';
@@ -74,10 +76,16 @@ class AppLocalizationsDe extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => 'Erstelle einen neuen Tab, um Deckr aufzurufen, und suche auf der linken Seite nach der Liste der offenen Tabs. Ziehe den Tab auf ein Lesezeichen-Deck in der mittleren Spalte.';
 
   @override
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+
+  @override
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+
+  @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Keine deiner Lesezeichen oder persönlichen Daten werden jemals in unsere Cloud hochgeladen, es sei denn, du entscheidest dich für ein Backup deiner Decks.';
 
   @override
-  String get onceYouSetTheZoomLevelItWi => 'Once you set the zoom level it will use that setting for Deckr\'s page only and not affect other pages.';
+  String get onceYouSetTheZoomLevelItWi => 'Sobald du die Zoomstufe eingestellt hast, wird diese Einstellung nur für die Seite von Deckr verwendet und wirkt sich nicht auf andere Seiten aus.';
 
   @override
   String get onLinuxClickTheLinkOnTheHomePage => 'Unter Linux klickst du auf den Link auf der Startseite, um zu den Installationsanweisungen auf Flatpak.org zu gelangen.';
@@ -90,6 +98,9 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Unser Ziel ist es, die gute alte Zeit des Surfens im Internet zurückzubringen.';
+
+  @override
+  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
 
   @override
   String get signingInIsJustToProtectAgainst => 'Die Anmeldung dient nur zum Schutz vor Trollen und anonymen Störenfrieden.';
