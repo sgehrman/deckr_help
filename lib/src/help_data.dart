@@ -21,6 +21,7 @@ enum HelpDataId {
   autoLaunchOnStartup,
   scalingTheUI,
   contextualMenus,
+  keyboardShortcuts,
 }
 
 class HelpData {
@@ -36,6 +37,12 @@ class HelpData {
     final l10n = AppLocalizations.of(context);
 
     switch (id) {
+      case HelpDataId.keyboardShortcuts:
+        title = const ParagrafSpec.md(
+          'Useful keyboard shortcuts',
+        );
+        message = _HelpParagrafs.withId(context, id);
+        break;
       case HelpDataId.contextualMenus:
         title = ParagrafSpec.md(
           l10n.manyElementsInTheUserInterfaceHaveContextualMenus,
@@ -221,6 +228,25 @@ class _HelpParagrafs {
     final l10n = AppLocalizations.of(context);
 
     switch (id) {
+      case HelpDataId.keyboardShortcuts:
+        return ParagrafSpec.sml(
+          'Deckr has a few very useful keyboard shortcuts',
+          newlines: 2,
+          children: [
+            ParagrafSpec.sml(
+              'Cmd-shift-L: Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.',
+              newlines: 2,
+            ),
+            ParagrafSpec.sml(
+              'Cmd-shift-F: Opens the Search dialog',
+              newlines: 2,
+            ),
+            ParagrafSpec.sml(
+              'Cmd-shift-X: This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.',
+              newlines: 2,
+            ),
+          ],
+        );
       case HelpDataId.contextualMenus:
         return ParagrafSpec.sml(
           l10n.rightClickOnItemsToShowTheContextualMenus,
