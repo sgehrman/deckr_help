@@ -233,16 +233,28 @@ class _HelpParagrafs {
           'Deckr has a few very useful keyboard shortcuts',
           newlines: 2,
           children: [
-            ParagrafSpec.sml(
-              'Cmd-shift-L: Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.',
-              newlines: 2,
+            const ParagrafSpec.smb(
+              'Cmd-shift-L:',
             ),
             ParagrafSpec.sml(
-              'Cmd-shift-F: Opens the Search dialog',
+              'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.',
+              spaces: 2,
               newlines: 2,
             ),
+            const ParagrafSpec.smb(
+              'Cmd-shift-F:',
+            ),
             ParagrafSpec.sml(
-              'Cmd-shift-X: This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.',
+              'Opens the Search dialog',
+              spaces: 2,
+              newlines: 2,
+            ),
+            const ParagrafSpec.smb(
+              'Cmd-shift-X:',
+            ),
+            ParagrafSpec.sml(
+              'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.',
+              spaces: 2,
               newlines: 2,
             ),
           ],
