@@ -1,4 +1,4 @@
-import 'package:deckr_help/src/help_dialog/help_item.dart';
+import 'package:deckr_help/src/help_dialog/help_list_item.dart';
 import 'package:dfc_flutter/dfc_flutter_web_lite.dart';
 import 'package:flutter/material.dart';
 
@@ -7,7 +7,7 @@ class HelpList extends StatelessWidget {
     required this.children,
   });
 
-  final List<HelpItem> children;
+  final List<HelpListItem> children;
 
   @override
   Widget build(BuildContext context) {

@@ -8,8 +8,8 @@ import 'package:deckr_help/src/expandable/scroll_on_expand.dart';
 import 'package:dfc_flutter/dfc_flutter_web_lite.dart';
 import 'package:flutter/material.dart';
 
-class HelpItem extends StatefulWidget {
-  const HelpItem({
+class HelpListItem extends StatefulWidget {
+  const HelpListItem({
     required Key key,
     required this.header,
     required this.expanded,
@@ -23,10 +23,10 @@ class HelpItem extends StatefulWidget {
   final bool isMobile;
 
   @override
-  State<HelpItem> createState() => _HelpItemState();
+  State<HelpListItem> createState() => _HelpListItemState();
 }
 
-class _HelpItemState extends State<HelpItem> {
+class _HelpListItemState extends State<HelpListItem> {
   ExpandableController? _controller;
   ExpandableThemeData? _expandableTheme;
 
