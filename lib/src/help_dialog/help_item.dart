@@ -5,7 +5,6 @@ import 'package:deckr_help/src/expandable/expandable_panel.dart';
 import 'package:deckr_help/src/expandable/expandable_theme.dart';
 import 'package:deckr_help/src/expandable/expandable_theme_notifier.dart';
 import 'package:deckr_help/src/expandable/scroll_on_expand.dart';
-import 'package:deckr_help/src/styles.dart';
 import 'package:dfc_flutter/dfc_flutter_web_lite.dart';
 import 'package:flutter/material.dart';
 
@@ -48,7 +47,7 @@ class _HelpItemState extends State<HelpItem> {
           width: widget.isMobile ? 12 : 14,
           child: CustomPaint(
             painter: TrianglePainter(
-              color: Styles.primary(context),
+              color: context.primary,
             ),
           ),
         ),
