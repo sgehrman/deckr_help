@@ -1,28 +1,28 @@
-import 'package:deckr_help/src/expandable/expandable_controller.dart';
-import 'package:deckr_help/src/expandable/expandable_theme.dart';
+import 'package:deckr_help/src/xpandable/xpandable_controller.dart';
+import 'package:deckr_help/src/xpandable/xpandable_theme.dart';
 import 'package:flutter/material.dart';
 
-class ExpandableIcon extends StatefulWidget {
-  const ExpandableIcon({
-    required ExpandableThemeData theme,
+class XpandableIcon extends StatefulWidget {
+  const XpandableIcon({
+    required XpandableThemeData theme,
   }) : _theme = theme;
 
-  final ExpandableThemeData _theme;
+  final XpandableThemeData _theme;
 
   @override
-  State<ExpandableIcon> createState() => _ExpandableIconState();
+  State<XpandableIcon> createState() => _XpandableIconState();
 }
 
-class _ExpandableIconState extends State<ExpandableIcon> {
-  ExpandableThemeData? theme;
-  late ExpandableController controller;
+class _XpandableIconState extends State<XpandableIcon> {
+  XpandableThemeData? theme;
+  late XpandableController controller;
   bool _expanded = false;
 
   @override
   void initState() {
     super.initState();
 
-    controller = ExpandableController.of(context, rebuildOnChange: false)!;
+    controller = XpandableController.of(context, rebuildOnChange: false)!;
     controller.addListener(_expandedStateChanged);
 
     _expanded = controller.expanded;
@@ -42,7 +42,7 @@ class _ExpandableIconState extends State<ExpandableIcon> {
 
   @override
   Widget build(BuildContext context) {
-    theme ??= ExpandableThemeData.withDefaults(widget._theme);
+    theme ??= XpandableThemeData.withDefaults(widget._theme);
 
     return Padding(
       padding: const EdgeInsets.all(8),

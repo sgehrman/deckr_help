@@ -1,9 +1,9 @@
-import 'package:deckr_help/src/expandable/expandable_controller.dart';
-import 'package:deckr_help/src/expandable/expandable_theme.dart';
+import 'package:deckr_help/src/xpandable/xpandable_controller.dart';
+import 'package:deckr_help/src/xpandable/xpandable_theme.dart';
 import 'package:flutter/material.dart';
 
-class ScrollOnExpand extends StatefulWidget {
-  const ScrollOnExpand({
+class ScrollOnXpand extends StatefulWidget {
+  const ScrollOnXpand({
     required this.child,
     required this.theme,
     Key? key,
@@ -15,33 +15,33 @@ class ScrollOnExpand extends StatefulWidget {
   final bool scrollOnExpand;
   final bool scrollOnCollapse;
 
-  final ExpandableThemeData theme;
+  final XpandableThemeData theme;
 
   @override
-  State<ScrollOnExpand> createState() => _ScrollOnExpandState();
+  State<ScrollOnXpand> createState() => _ScrollOnXpandState();
 }
 
-class _ScrollOnExpandState extends State<ScrollOnExpand> {
-  ExpandableController? _controller;
+class _ScrollOnXpandState extends State<ScrollOnXpand> {
+  XpandableController? _controller;
   int _isAnimating = 0;
   BuildContext? _lastContext;
-  late ExpandableThemeData _theme;
+  late XpandableThemeData _theme;
 
   @override
   void initState() {
     super.initState();
 
-    _theme = ExpandableThemeData.withDefaults(widget.theme);
+    _theme = XpandableThemeData.withDefaults(widget.theme);
 
-    _controller = ExpandableController.of(context, rebuildOnChange: false);
+    _controller = XpandableController.of(context, rebuildOnChange: false);
     _controller!.addListener(_expandedStateChanged);
   }
 
   @override
-  void didUpdateWidget(ScrollOnExpand oldWidget) {
+  void didUpdateWidget(ScrollOnXpand oldWidget) {
     super.didUpdateWidget(oldWidget);
     final newController =
-        ExpandableController.of(context, rebuildOnChange: false);
+        XpandableController.of(context, rebuildOnChange: false);
     if (newController != _controller) {
       _controller!.removeListener(_expandedStateChanged);
       _controller = newController;

@@ -1,9 +1,9 @@
-import 'package:deckr_help/src/expandable/expandable_theme.dart';
-import 'package:deckr_help/src/expandable/expandable_theme_notifier.dart';
+import 'package:deckr_help/src/xpandable/xpandable_theme.dart';
+import 'package:deckr_help/src/xpandable/xpandable_theme_notifier.dart';
 import 'package:flutter/material.dart';
 
-class ExpandableController extends ValueNotifier<bool> {
-  ExpandableController({
+class XpandableController extends ValueNotifier<bool> {
+  XpandableController({
     bool? initialExpanded,
   }) : super(initialExpanded ?? false);
 
@@ -17,22 +17,22 @@ class ExpandableController extends ValueNotifier<bool> {
     expanded = !expanded;
   }
 
-  static ExpandableController? of(
+  static XpandableController? of(
     BuildContext context, {
     bool rebuildOnChange = true,
   }) {
     final notifier = rebuildOnChange
         ? context
-            .dependOnInheritedWidgetOfExactType<ExpandableControllerNotifier>()
-        : context.findAncestorWidgetOfExactType<ExpandableControllerNotifier>();
+            .dependOnInheritedWidgetOfExactType<XpandableControllerNotifier>()
+        : context.findAncestorWidgetOfExactType<XpandableControllerNotifier>();
 
     return notifier?.notifier;
   }
 }
 
-class Expandable extends StatelessWidget {
-  const Expandable({
-    required ExpandableThemeData theme,
+class Xpandable extends StatelessWidget {
+  const Xpandable({
+    required XpandableThemeData theme,
     Key? key,
     this.collapsed,
     this.expanded,
@@ -41,14 +41,14 @@ class Expandable extends StatelessWidget {
         super(key: key);
   final Widget? collapsed;
   final Widget? expanded;
-  final ExpandableController? controller;
+  final XpandableController? controller;
 
-  final ExpandableThemeData _theme;
+  final XpandableThemeData _theme;
 
   @override
   Widget build(BuildContext context) {
-    final controller = this.controller ?? ExpandableController.of(context)!;
-    final theme = ExpandableThemeData.withDefaults(_theme);
+    final controller = this.controller ?? XpandableController.of(context)!;
+    final theme = XpandableThemeData.withDefaults(_theme);
 
     return AnimatedCrossFade(
       alignment: theme.alignment!,

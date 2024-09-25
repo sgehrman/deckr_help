@@ -1,10 +1,10 @@
 import 'dart:math' as math;
 
-import 'package:deckr_help/src/expandable/expandable_theme_notifier.dart';
+import 'package:deckr_help/src/xpandable/xpandable_theme_notifier.dart';
 import 'package:flutter/material.dart';
 
-class ExpandableThemeData {
-  const ExpandableThemeData({
+class XpandableThemeData {
+  const XpandableThemeData({
     required this.expandIcon,
     required this.collapseIcon,
     this.animationDuration,
@@ -18,14 +18,14 @@ class ExpandableThemeData {
     this.headerDecoration,
   });
 
-  factory ExpandableThemeData.combine(
-    ExpandableThemeData theme,
-    ExpandableThemeData defaults,
+  factory XpandableThemeData.combine(
+    XpandableThemeData theme,
+    XpandableThemeData defaults,
   ) {
     if (theme.isFull()) {
       return theme;
     } else {
-      return ExpandableThemeData(
+      return XpandableThemeData(
         animationDuration:
             theme.animationDuration ?? defaults.animationDuration,
         scrollAnimationDuration:
@@ -44,19 +44,19 @@ class ExpandableThemeData {
     }
   }
 
-  factory ExpandableThemeData.withDefaults(
-    ExpandableThemeData theme,
+  factory XpandableThemeData.withDefaults(
+    XpandableThemeData theme,
   ) {
     if (theme.isFull()) {
       return theme;
     } else {
-      return ExpandableThemeData.combine(
+      return XpandableThemeData.combine(
         theme,
         defaults,
       );
     }
   }
-  static const ExpandableThemeData defaults = ExpandableThemeData(
+  static const XpandableThemeData defaults = XpandableThemeData(
     animationDuration: Duration(milliseconds: 300),
     scrollAnimationDuration: Duration(milliseconds: 300),
     crossFadePoint: 0.5,
@@ -109,7 +109,7 @@ class ExpandableThemeData {
   bool operator ==(Object other) {
     if (identical(this, other)) {
       return true;
-    } else if (other is ExpandableThemeData) {
+    } else if (other is XpandableThemeData) {
       return animationDuration == other.animationDuration &&
           scrollAnimationDuration == other.scrollAnimationDuration &&
           crossFadePoint == other.crossFadePoint &&
@@ -131,30 +131,30 @@ class ExpandableThemeData {
     return 0;
   }
 
-  static ExpandableThemeData of(
+  static XpandableThemeData of(
     BuildContext context, {
     bool rebuildOnChange = true,
   }) {
     final notifier = rebuildOnChange
-        ? context.dependOnInheritedWidgetOfExactType<ExpandableThemeNotifier>()
-        : context.findAncestorWidgetOfExactType<ExpandableThemeNotifier>();
+        ? context.dependOnInheritedWidgetOfExactType<XpandableThemeNotifier>()
+        : context.findAncestorWidgetOfExactType<XpandableThemeNotifier>();
 
     return notifier?.themeData ?? defaults;
   }
 }
 
-class ExpandableTheme extends StatelessWidget {
-  const ExpandableTheme({required this.data, required this.child});
-  final ExpandableThemeData data;
+class XpandableTheme extends StatelessWidget {
+  const XpandableTheme({required this.data, required this.child});
+  final XpandableThemeData data;
   final Widget child;
 
   @override
   Widget build(BuildContext context) {
-    final ExpandableThemeNotifier? n =
-        context.dependOnInheritedWidgetOfExactType<ExpandableThemeNotifier>();
+    final XpandableThemeNotifier? n =
+        context.dependOnInheritedWidgetOfExactType<XpandableThemeNotifier>();
 
-    return ExpandableThemeNotifier(
-      themeData: ExpandableThemeData.combine(data, n!.themeData!),
+    return XpandableThemeNotifier(
+      themeData: XpandableThemeData.combine(data, n!.themeData!),
       child: child,
     );
   }

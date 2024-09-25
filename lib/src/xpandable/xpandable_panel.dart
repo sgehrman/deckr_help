@@ -1,37 +1,37 @@
-import 'package:deckr_help/src/expandable/expandable_button.dart';
-import 'package:deckr_help/src/expandable/expandable_controller.dart';
-import 'package:deckr_help/src/expandable/expandable_icon.dart';
-import 'package:deckr_help/src/expandable/expandable_theme.dart';
-import 'package:deckr_help/src/expandable/expandable_theme_notifier.dart';
+import 'package:deckr_help/src/xpandable/xpandable_button.dart';
+import 'package:deckr_help/src/xpandable/xpandable_controller.dart';
+import 'package:deckr_help/src/xpandable/xpandable_icon.dart';
+import 'package:deckr_help/src/xpandable/xpandable_theme.dart';
+import 'package:deckr_help/src/xpandable/xpandable_theme_notifier.dart';
 import 'package:flutter/material.dart';
 
-typedef ExpandableBuilder = Widget Function(
+typedef XpandableBuilder = Widget Function(
   BuildContext context,
   Widget expanded,
 );
 
-class ExpandablePanel extends StatelessWidget {
-  const ExpandablePanel({
+class XpandablePanel extends StatelessWidget {
+  const XpandablePanel({
     required this.header,
     required this.expanded,
     required this.builder,
     required this.isMobile,
-    required ExpandableThemeData theme,
+    required XpandableThemeData theme,
     this.controller,
     this.onExpand,
   }) : _theme = theme;
 
   final Widget header;
   final Widget expanded;
-  final ExpandableBuilder builder;
+  final XpandableBuilder builder;
   final void Function()? onExpand;
-  final ExpandableController? controller;
-  final ExpandableThemeData _theme;
+  final XpandableController? controller;
+  final XpandableThemeData _theme;
   final bool isMobile;
 
   Widget _buildWithHeader(
     BuildContext context,
-    ExpandableThemeData theme,
+    XpandableThemeData theme,
   ) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -39,11 +39,11 @@ class ExpandablePanel extends StatelessWidget {
         Container(
           decoration: theme.headerDecoration,
           clipBehavior: Clip.antiAlias,
-          child: ExpandableButton(
+          child: XpandableButton(
             theme: _theme,
             child: Row(
               children: [
-                ExpandableIcon(theme: theme),
+                XpandableIcon(theme: theme),
                 SizedBox(width: isMobile ? 5 : 8),
                 Expanded(
                   child: header,
@@ -61,7 +61,7 @@ class ExpandablePanel extends StatelessWidget {
                 onExpand?.call();
               }
 
-              final controller = ExpandableController.of(context);
+              final controller = XpandableController.of(context);
               controller?.toggle();
             },
             child: expanded,
@@ -73,20 +73,20 @@ class ExpandablePanel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final theme = ExpandableThemeData.withDefaults(_theme);
+    final theme = XpandableThemeData.withDefaults(_theme);
 
     final panel = _buildWithHeader(context, theme);
 
     if (controller != null) {
-      return ExpandableNotifier(
+      return XpandableNotifier(
         controller: controller,
         child: panel,
       );
     } else {
       final controller =
-          ExpandableController.of(context, rebuildOnChange: false);
+          XpandableController.of(context, rebuildOnChange: false);
       if (controller == null) {
-        return ExpandableNotifier(
+        return XpandableNotifier(
           controller: controller,
           child: panel,
         );

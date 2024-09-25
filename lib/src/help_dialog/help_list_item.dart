@@ -1,10 +1,10 @@
 import 'dart:math' as math;
 
-import 'package:deckr_help/src/expandable/expandable_controller.dart';
-import 'package:deckr_help/src/expandable/expandable_panel.dart';
-import 'package:deckr_help/src/expandable/expandable_theme.dart';
-import 'package:deckr_help/src/expandable/expandable_theme_notifier.dart';
-import 'package:deckr_help/src/expandable/scroll_on_expand.dart';
+import 'package:deckr_help/src/xpandable/scroll_on_xpand.dart';
+import 'package:deckr_help/src/xpandable/xpandable_controller.dart';
+import 'package:deckr_help/src/xpandable/xpandable_panel.dart';
+import 'package:deckr_help/src/xpandable/xpandable_theme.dart';
+import 'package:deckr_help/src/xpandable/xpandable_theme_notifier.dart';
 import 'package:dfc_flutter/dfc_flutter_web_lite.dart';
 import 'package:flutter/material.dart';
 
@@ -27,14 +27,14 @@ class HelpListItem extends StatefulWidget {
 }
 
 class _HelpListItemState extends State<HelpListItem> {
-  ExpandableController? _controller;
-  ExpandableThemeData? _expandableTheme;
+  XpandableController? _controller;
+  XpandableThemeData? _expandableTheme;
 
   @override
   void initState() {
     super.initState();
 
-    _controller = ExpandableController(initialExpanded: widget.initialExpanded);
+    _controller = XpandableController(initialExpanded: widget.initialExpanded);
   }
 
   Widget _expandIcon({required bool downArrow}) {
@@ -55,8 +55,8 @@ class _HelpListItemState extends State<HelpListItem> {
     );
   }
 
-  ExpandableThemeData _theme(BuildContext context) {
-    _expandableTheme ??= ExpandableThemeData(
+  XpandableThemeData _theme(BuildContext context) {
+    _expandableTheme ??= XpandableThemeData(
       collapseIcon: _expandIcon(downArrow: true),
       expandIcon: _expandIcon(downArrow: false),
       iconRotationAngle: math.pi / 2,
@@ -79,17 +79,17 @@ class _HelpListItemState extends State<HelpListItem> {
 
     return Padding(
       padding: const EdgeInsets.only(bottom: 4),
-      child: ExpandableNotifier(
+      child: XpandableNotifier(
         controller: _controller,
-        child: ScrollOnExpand(
+        child: ScrollOnXpand(
           theme: theme,
-          child: ExpandablePanel(
+          child: XpandablePanel(
             isMobile: widget.isMobile,
             theme: theme,
             header: widget.header,
             expanded: widget.expanded,
             builder: (_, expanded) {
-              return Expandable(
+              return Xpandable(
                 expanded: Padding(
                   padding: EdgeInsets.only(
                     top: widget.isMobile ? 8 : 10,
