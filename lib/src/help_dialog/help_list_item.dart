@@ -1,10 +1,5 @@
 import 'dart:math' as math;
 
-import 'package:deckr_help/src/xpandable/scroll_on_xpand.dart';
-import 'package:deckr_help/src/xpandable/xpandable_controller.dart';
-import 'package:deckr_help/src/xpandable/xpandable_panel.dart';
-import 'package:deckr_help/src/xpandable/xpandable_theme.dart';
-import 'package:deckr_help/src/xpandable/xpandable_theme_notifier.dart';
 import 'package:dfc_flutter/dfc_flutter_web_lite.dart';
 import 'package:flutter/material.dart';
 
