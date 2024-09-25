@@ -24,13 +24,8 @@ enum HelpDataId {
   keyboardShortcuts,
 }
 
-class HelpData {
-  const HelpData._({
-    required this.title,
-    required this.message,
-  });
-
-  factory HelpData.withId(BuildContext context, HelpDataId id) {
+class HelpDataUtils {
+  static HelpData helpDataWithId(BuildContext context, HelpDataId id) {
     ParagrafSpec title;
     ParagrafSpec message;
 
@@ -138,14 +133,11 @@ class HelpData {
         break;
     }
 
-    return HelpData._(
+    return HelpData(
       title: title,
       message: message,
     );
   }
-
-  final ParagrafSpec title;
-  final ParagrafSpec message;
 
   static String mHelpIntro(BuildContext context) {
     final l10n = AppLocalizations.of(context);
@@ -155,31 +147,31 @@ class HelpData {
   // ===========================================================
 
   static List<HelpData> all(BuildContext context) =>
-      HelpDataId.values.map((e) => HelpData.withId(context, e)).toList();
+      HelpDataId.values.map((e) => helpDataWithId(context, e)).toList();
 
   static List<HelpData> aboutDialog(BuildContext context) => [
-        HelpData.withId(context, HelpDataId.extensionAndApp),
-        HelpData.withId(context, HelpDataId.blueIconOnMenuBar),
-        HelpData.withId(context, HelpDataId.scalingTheUI),
-        HelpData.withId(context, HelpDataId.contextualMenus),
-        HelpData.withId(context, HelpDataId.whySignIn),
-        HelpData.withId(context, HelpDataId.howToSetBookmark),
-        HelpData.withId(context, HelpDataId.privacy),
+        helpDataWithId(context, HelpDataId.extensionAndApp),
+        helpDataWithId(context, HelpDataId.blueIconOnMenuBar),
+        helpDataWithId(context, HelpDataId.scalingTheUI),
+        helpDataWithId(context, HelpDataId.contextualMenus),
+        helpDataWithId(context, HelpDataId.whySignIn),
+        helpDataWithId(context, HelpDataId.howToSetBookmark),
+        helpDataWithId(context, HelpDataId.privacy),
       ];
 
   static List<HelpData> purchasingDialog(BuildContext context) => [
-        HelpData.withId(context, HelpDataId.whatIsALicenseKey),
-        HelpData.withId(context, HelpDataId.whatAreActivations),
-        HelpData.withId(context, HelpDataId.coupons),
-        HelpData.withId(context, HelpDataId.refunds),
-        HelpData.withId(context, HelpDataId.expiredLicense),
+        helpDataWithId(context, HelpDataId.whatIsALicenseKey),
+        helpDataWithId(context, HelpDataId.whatAreActivations),
+        helpDataWithId(context, HelpDataId.coupons),
+        helpDataWithId(context, HelpDataId.refunds),
+        helpDataWithId(context, HelpDataId.expiredLicense),
       ];
 
   static List<HelpData> installationDialog(BuildContext context) => [
-        HelpData.withId(context, HelpDataId.installingDesktopApp),
-        HelpData.withId(context, HelpDataId.installingTheExtension),
-        HelpData.withId(context, HelpDataId.multipleComputers),
-        HelpData.withId(context, HelpDataId.autoLaunchOnStartup),
+        helpDataWithId(context, HelpDataId.installingDesktopApp),
+        helpDataWithId(context, HelpDataId.installingTheExtension),
+        helpDataWithId(context, HelpDataId.multipleComputers),
+        helpDataWithId(context, HelpDataId.autoLaunchOnStartup),
       ];
 
   static void _writeItem(ParagrafSpec item, StringBuffer buffer) {
@@ -200,7 +192,7 @@ class HelpData {
     );
     buffer.write('</head><body style="max-width: 600px">');
 
-    final data = HelpData.all(context);
+    final data = HelpDataUtils.all(context);
 
     for (final item in data) {
       buffer.write('<h4>');
