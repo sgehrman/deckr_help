@@ -1,7 +1,8 @@
 import 'package:deckr_help/l10n/app_localizations.dart';
-import 'package:deckr_help/src/constants.dart';
 import 'package:dfc_flutter/dfc_flutter_web_lite.dart';
 import 'package:flutter/material.dart';
+
+const kSalesEmail = 'sales@cocoatech.com';
 
 enum HelpDataId {
   whatIsALicenseKey,
