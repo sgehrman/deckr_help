@@ -28,6 +28,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get clickTheLinkOnTheHomePageAndClickInstall => 'Click the link on the home page and click \"install extension\". Once installed, run the desktop app and open a browser window, make a new tab and Deckr will show.';
 
   @override
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr has a few very useful keyboard shortcuts';
+
+  @override
   String get deckrHasTwoPartsABrowserPlugin => 'Deckr has two parts. A browser plugin (Chrome or Firefox) and a desktop app (Mac/Win/Linux).';
 
   @override
@@ -97,6 +100,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get onWindowsDownloadTheInstallerUsing => 'On Windows, download the installer using the link on the home page run the installer.';
 
   @override
+  String get opensTheSearchDialog => 'Opens the Search dialog';
+
+  @override
   String get ourGoalIsToBringBackTheGood => 'Our goal is to bring back the good ol days of surfing the web.';
 
   @override
@@ -130,7 +136,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get thisServesThePurposeOfLettingYouKnowIt => 'This serves the purpose of letting you know it\'s running and it has a quit menu item so you can quit the desktop app if needed.';
 
   @override
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.';
+
+  @override
   String get toRequestARefundBeforeYouRequest => 'to request a refund. Before you request a refund, it would be great to hear why you are unhappy. Maybe we can fix the problem in the next update.';
+
+  @override
+  String get usefulKeyboardShortcuts => 'Useful keyboard shortcuts';
 
   @override
   String get weCreatedDeckrToBeAUsefulTool => 'We created Deckr to be a useful tool that provides value to the customer.';
@@ -187,13 +199,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get whyProblemDoesDeckrSolve => 'Why problem does Deckr solve?';
 
   @override
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.';
+
+  @override
   String get youAlsoCanLookInTheRecentsListOn => 'You also can look in the recents list on the right center and drag bookmark in from there.';
 
   @override
   String get youCanAlsoBackupYourBookmarksTo => 'You can also backup your bookmarks to the Deckr cloud which requires an account to keep it private';
 
   @override
-  String get youCanAlsoTypeCmdShiftLToAddThe => 'You can also type cmd-shift-L to add the current tabs bookmark into the Read Later box on the top right of the Deckr screen.';
+  String get youCanAlsoTypeCmdShiftKToAddThe => 'You can also type Cmd-Shift-K to add the current tabs bookmark into the Read Later box on the top right of the Deckr screen.';
 
   @override
   String get youCanStillRunDeckrButYou => 'You can still run Deckr, but you\'ll see \\\"nag\\\" messages asking you to purchase.';

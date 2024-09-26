@@ -28,6 +28,9 @@ class AppLocalizationsCs extends AppLocalizations {
   String get clickTheLinkOnTheHomePageAndClickInstall => 'Klikněte na odkaz na domovské stránce a klikněte na \"install extension\". Po instalaci spusťte aplikaci na ploše a otevřete okno prohlížeče, vytvořte novou kartu a zobrazí se Deckr.';
 
   @override
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr has a few very useful keyboard shortcuts';
+
+  @override
   String get deckrHasTwoPartsABrowserPlugin => 'Deckr má dvě části. Zásuvný modul prohlížeče (Chrome nebo Firefox) a desktopovou aplikaci (Mac/Win/Linux).';
 
   @override
@@ -76,10 +79,10 @@ class AppLocalizationsCs extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => 'Vytvořte novou kartu, abyste vyvolali Deckr, a podívejte se na levou stranu na seznam otevřených karet. Přetáhněte kartu do balíčku záložek v prostředním sloupci.';
 
   @override
-  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Mnoho prvků v uživatelském rozhraní má kontextové nabídky.';
 
   @override
-  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Pomocí těchto nabídek je k dispozici mnoho uživatelsky užitečných funkcí.';
 
   @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Žádné vaše záložky ani osobní údaje se nikdy neukládají do našeho cloudu, pokud se nerozhodnete své balíčky zálohovat.';
@@ -97,10 +100,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get onWindowsDownloadTheInstallerUsing => 'V systému Windows stáhněte instalační program pomocí odkazu na domovské stránce a spusťte jej.';
 
   @override
+  String get opensTheSearchDialog => 'Opens the Search dialog';
+
+  @override
   String get ourGoalIsToBringBackTheGood => 'Naším cílem je vrátit staré dobré časy surfování po webu.';
 
   @override
-  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
+  String get rightClickOnItemsToShowTheContextualMenus => 'Kliknutím pravým tlačítkem myši na položky zobrazíte kontextové nabídky.';
 
   @override
   String get signingInIsJustToProtectAgainst => 'Přihlášení slouží pouze k ochraně před trolly a anonymními potížisty.';
@@ -130,7 +136,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get thisServesThePurposeOfLettingYouKnowIt => 'Slouží k tomu, abyste věděli, že je spuštěna, a obsahuje položku nabídky ukončení, takže v případě potřeby můžete aplikaci na ploše ukončit.';
 
   @override
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.';
+
+  @override
   String get toRequestARefundBeforeYouRequest => 'požádat o vrácení peněz. Než požádáte o vrácení peněz, bylo by dobré si vyslechnout, proč jste nespokojeni. Možná se nám podaří problém vyřešit v příští aktualizaci.';
+
+  @override
+  String get usefulKeyboardShortcuts => 'Useful keyboard shortcuts';
 
   @override
   String get weCreatedDeckrToBeAUsefulTool => 'Vytvořili jsme Deckr jako užitečný nástroj, který zákazníkovi přináší hodnotu.';
@@ -187,13 +199,16 @@ class AppLocalizationsCs extends AppLocalizations {
   String get whyProblemDoesDeckrSolve => 'Jaký problém řeší Deckr?';
 
   @override
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.';
+
+  @override
   String get youAlsoCanLookInTheRecentsListOn => 'Můžete se také podívat do seznamu posledních položek vpravo uprostřed a přetáhnout záložku odtud.';
 
   @override
   String get youCanAlsoBackupYourBookmarksTo => 'Své záložky můžete také zálohovat do cloudu Deckr, který vyžaduje účet pro zachování soukromí.';
 
   @override
-  String get youCanAlsoTypeCmdShiftLToAddThe => 'Můžete také zadat cmd-shift-L a přidat záložku aktuální karty do pole Read Later (Přečíst později) v pravém horním rohu obrazovky Deckr.';
+  String get youCanAlsoTypeCmdShiftKToAddThe => 'Můžete také zadat Cmd-Shift-K a přidat záložku aktuální karty do pole Read Later (Přečíst později) v pravém horním rohu obrazovky Deckr.';
 
   @override
   String get youCanStillRunDeckrButYou => 'Stále můžete spustit Deckr, ale budou se zobrazovat zprávy \\\"nag\\\" s výzvou k nákupu.';

@@ -28,6 +28,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get clickTheLinkOnTheHomePageAndClickInstall => 'ホームページのリンクをクリックし、「拡張機能をインストール」をクリックする。インストールが完了したら、デスクトップアプリを実行し、ブラウザウィンドウを開き、新しいタブを作成すると、Deckrが表示される。';
 
   @override
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr has a few very useful keyboard shortcuts';
+
+  @override
   String get deckrHasTwoPartsABrowserPlugin => 'Deckrには2つの部分がある。ブラウザ・プラグイン（ChromeまたはFirefox）とデスクトップ・アプリ（Mac/Win/Linux）だ。';
 
   @override
@@ -76,10 +79,10 @@ class AppLocalizationsJa extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => '新しいタブを作ってDeckrを表示させ、左側の開いているタブのリストを見る。タブを真ん中の欄のブックマークデッキにドラッグする。';
 
   @override
-  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'ユーザーインターフェイスの多くの要素には、コンテクストメニューがある。';
 
   @override
-  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'これらのメニューを使うことで、多くの便利な機能が利用できる。';
 
   @override
   String get noneOfYourBookmarksOrPersonalInformation => 'あなたがデッキのバックアップを選択しない限り、あなたのブックマークや個人情報がクラウドにアップロードされることはない。';
@@ -97,10 +100,13 @@ class AppLocalizationsJa extends AppLocalizations {
   String get onWindowsDownloadTheInstallerUsing => 'Windowsの場合は、ホームページのリンクからインストーラーをダウンロードし、インストーラーを実行する。';
 
   @override
+  String get opensTheSearchDialog => 'Opens the Search dialog';
+
+  @override
   String get ourGoalIsToBringBackTheGood => '私たちの目標は、古き良き時代のネットサーフィンを取り戻すことだ。';
 
   @override
-  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
+  String get rightClickOnItemsToShowTheContextualMenus => 'アイテムを右クリックしてコンテクストメニューを表示する';
 
   @override
   String get signingInIsJustToProtectAgainst => 'サインインは、荒らしや匿名のトラブルメーカーから身を守るためのものだ。';
@@ -130,7 +136,13 @@ class AppLocalizationsJa extends AppLocalizations {
   String get thisServesThePurposeOfLettingYouKnowIt => 'これは実行中であることを知らせる役割を果たし、必要に応じてデスクトップアプリを終了できるよう、終了メニュー項目がある。';
 
   @override
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.';
+
+  @override
   String get toRequestARefundBeforeYouRequest => 'に返金を要請する。返金を要求する前に、なぜ不満なのかを聞いていただけるとありがたい。次のアップデートで問題を解決できるかもしれない。';
+
+  @override
+  String get usefulKeyboardShortcuts => 'Useful keyboard shortcuts';
 
   @override
   String get weCreatedDeckrToBeAUsefulTool => 'Deckrは、顧客に価値を提供する便利なツールであることを目指した。';
@@ -187,13 +199,16 @@ class AppLocalizationsJa extends AppLocalizations {
   String get whyProblemDoesDeckrSolve => 'Deckrはなぜ問題を解決するのか？';
 
   @override
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.';
+
+  @override
   String get youAlsoCanLookInTheRecentsListOn => 'また、右中央の「最近」リストを見て、そこからブックマークをドラッグすることもできる。';
 
   @override
   String get youCanAlsoBackupYourBookmarksTo => 'ブックマークをDeckrクラウドにバックアップすることもできる。';
 
   @override
-  String get youCanAlsoTypeCmdShiftLToAddThe => 'また、cmd-shift-Lと入力すると、現在のタブのブックマークをDeckrの画面右上にある「後で読む」ボックスに追加できる。';
+  String get youCanAlsoTypeCmdShiftKToAddThe => 'また、Cmd-Shift-Kと入力すると、現在のタブのブックマークをDeckrの画面右上にある「後で読む」ボックスに追加できる。';
 
   @override
   String get youCanStillRunDeckrButYou => 'それでもDeckrを動かすことはできるが、購入を促すメッセージが表示される。';

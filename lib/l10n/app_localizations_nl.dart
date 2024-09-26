@@ -28,6 +28,9 @@ class AppLocalizationsNl extends AppLocalizations {
   String get clickTheLinkOnTheHomePageAndClickInstall => 'Klik op de link op de startpagina en klik op \"extensie installeren\". Start na de installatie de desktop-app en open een browservenster, maak een nieuw tabblad en Deckr wordt weergegeven.';
 
   @override
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr has a few very useful keyboard shortcuts';
+
+  @override
   String get deckrHasTwoPartsABrowserPlugin => 'Deckr bestaat uit twee delen. Een browser plugin (Chrome of Firefox) en een desktop app (Mac/Win/Linux).';
 
   @override
@@ -76,10 +79,10 @@ class AppLocalizationsNl extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => 'Maak een nieuw tabblad om Deckr op te roepen en kijk aan de linkerkant naar de lijst met open tabbladen. Sleep het tabblad naar een bladwijzerdek in de middelste kolom.';
 
   @override
-  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Veel elementen in de gebruikersinterface hebben contextuele menu\'s';
 
   @override
-  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Via deze menu\'s zijn veel handige functies beschikbaar';
 
   @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Niets van je bladwijzers of persoonlijke informatie wordt ooit naar onze cloud geüpload, tenzij je ervoor kiest om een back-up van je decks te maken.';
@@ -97,10 +100,13 @@ class AppLocalizationsNl extends AppLocalizations {
   String get onWindowsDownloadTheInstallerUsing => 'Download op Windows het installatieprogramma via de link op de startpagina en voer het uit.';
 
   @override
+  String get opensTheSearchDialog => 'Opens the Search dialog';
+
+  @override
   String get ourGoalIsToBringBackTheGood => 'Ons doel is om de goede oude tijd van surfen op het web terug te brengen.';
 
   @override
-  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
+  String get rightClickOnItemsToShowTheContextualMenus => 'Klik met de rechtermuisknop op items om de contextuele menu\'s te tonen';
 
   @override
   String get signingInIsJustToProtectAgainst => 'Aanmelden is alleen om je te beschermen tegen trollen en anonieme herrieschoppers.';
@@ -130,7 +136,13 @@ class AppLocalizationsNl extends AppLocalizations {
   String get thisServesThePurposeOfLettingYouKnowIt => 'Dit dient om je te laten weten dat het draait en het heeft een afsluitmenu-item zodat je de desktop-app kunt afsluiten als dat nodig is.';
 
   @override
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.';
+
+  @override
   String get toRequestARefundBeforeYouRequest => 'om je geld terug te vragen. Voordat je je geld terugvraagt, zou het fijn zijn om te horen waarom je ontevreden bent. Misschien kunnen we het probleem in de volgende update oplossen.';
+
+  @override
+  String get usefulKeyboardShortcuts => 'Useful keyboard shortcuts';
 
   @override
   String get weCreatedDeckrToBeAUsefulTool => 'We hebben Deckr gemaakt om een nuttig hulpmiddel te zijn dat waarde toevoegt voor de klant.';
@@ -187,13 +199,16 @@ class AppLocalizationsNl extends AppLocalizations {
   String get whyProblemDoesDeckrSolve => 'Welk probleem lost Deckr op?';
 
   @override
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.';
+
+  @override
   String get youAlsoCanLookInTheRecentsListOn => 'Je kunt ook kijken in de lijst met Favorieten rechts in het midden en van daaruit bladwijzers naar binnen slepen.';
 
   @override
   String get youCanAlsoBackupYourBookmarksTo => 'Je kunt ook een back-up van je bladwijzers maken in de Deckr cloud, waarvoor je een account nodig hebt om het privé te houden.';
 
   @override
-  String get youCanAlsoTypeCmdShiftLToAddThe => 'Je kunt ook cmd-shift-L typen om de bladwijzer van het huidige tabblad toe te voegen aan het vak Lees later rechtsboven in het Deckr-scherm.';
+  String get youCanAlsoTypeCmdShiftKToAddThe => 'Je kunt ook Cmd-Shift-K typen om de bladwijzer van het huidige tabblad toe te voegen aan het vak Lees later rechtsboven in het Deckr-scherm.';
 
   @override
   String get youCanStillRunDeckrButYou => 'Je kunt Deckr nog steeds draaien, maar je zult berichten zien die je vragen om te kopen.';

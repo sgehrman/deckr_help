@@ -28,6 +28,9 @@ class AppLocalizationsEs extends AppLocalizations {
   String get clickTheLinkOnTheHomePageAndClickInstall => 'Haz clic en el enlace de la página de inicio y pulsa \"instalar extensión\". Una vez instalada, ejecuta la aplicación de escritorio y abre una ventana del navegador, crea una nueva pestaña y aparecerá Deckr.';
 
   @override
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr has a few very useful keyboard shortcuts';
+
+  @override
   String get deckrHasTwoPartsABrowserPlugin => 'Deckr consta de dos partes. Un complemento para el navegador (Chrome o Firefox) y una aplicación de escritorio (Mac/Win/Linux).';
 
   @override
@@ -76,10 +79,10 @@ class AppLocalizationsEs extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => 'Crea una nueva pestaña para abrir Deckr y busca en el lado izquierdo la lista de pestañas abiertas. Arrastra la pestaña a una cubierta de favoritos en la columna central.';
 
   @override
-  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Muchos elementos de la interfaz de usuario tienen menús contextuales';
 
   @override
-  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Con estos menús puedes acceder a muchas funciones útiles para el usuario';
 
   @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Ninguno de tus marcadores o información personal se sube nunca a nuestra nube, a menos que elijas hacer una copia de seguridad de tus cubiertas.';
@@ -97,10 +100,13 @@ class AppLocalizationsEs extends AppLocalizations {
   String get onWindowsDownloadTheInstallerUsing => 'En Windows, descarga el instalador utilizando el enlace de la página de inicio ejecuta el instalador.';
 
   @override
+  String get opensTheSearchDialog => 'Opens the Search dialog';
+
+  @override
   String get ourGoalIsToBringBackTheGood => 'Nuestro objetivo es recuperar los buenos tiempos de la navegación por Internet.';
 
   @override
-  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
+  String get rightClickOnItemsToShowTheContextualMenus => 'Haz clic con el botón derecho en los elementos para mostrar los menús contextuales';
 
   @override
   String get signingInIsJustToProtectAgainst => 'Registrarse es sólo para protegerse de los trolls y de los alborotadores anónimos.';
@@ -130,7 +136,13 @@ class AppLocalizationsEs extends AppLocalizations {
   String get thisServesThePurposeOfLettingYouKnowIt => 'Sirve para que sepas que se está ejecutando y tiene un menú de salida para que puedas salir de la aplicación de escritorio si es necesario.';
 
   @override
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.';
+
+  @override
   String get toRequestARefundBeforeYouRequest => 'para solicitar una devolución. Antes de solicitar una devolución, sería estupendo saber por qué estás descontento. Quizá podamos solucionar el problema en la próxima actualización.';
+
+  @override
+  String get usefulKeyboardShortcuts => 'Useful keyboard shortcuts';
 
   @override
   String get weCreatedDeckrToBeAUsefulTool => 'Hemos creado el Deckr para que sea una herramienta útil que aporte valor al cliente.';
@@ -187,13 +199,16 @@ class AppLocalizationsEs extends AppLocalizations {
   String get whyProblemDoesDeckrSolve => '¿Qué problema resuelve el Deckr?';
 
   @override
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.';
+
+  @override
   String get youAlsoCanLookInTheRecentsListOn => 'También puedes buscar en la lista de recientes en el centro a la derecha y arrastrar el marcador desde allí.';
 
   @override
   String get youCanAlsoBackupYourBookmarksTo => 'También puedes hacer una copia de seguridad de tus favoritos en la nube Deckr que requiere una cuenta para mantenerla privada';
 
   @override
-  String get youCanAlsoTypeCmdShiftLToAddThe => 'También puedes escribir cmd-mayúsculas-L para añadir el marcador de la pestaña actual en el cuadro Leer más tarde, situado en la parte superior derecha de la pantalla del Deckr.';
+  String get youCanAlsoTypeCmdShiftKToAddThe => 'También puedes escribir cmd-mayúsculas-L para añadir el marcador de la pestaña actual en el cuadro Leer más tarde, situado en la parte superior derecha de la pantalla del Deckr.';
 
   @override
   String get youCanStillRunDeckrButYou => 'Puedes seguir ejecutando Deckr, pero verás mensajes \"nag\" pidiéndote que compres.';

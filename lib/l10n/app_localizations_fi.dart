@@ -28,6 +28,9 @@ class AppLocalizationsFi extends AppLocalizations {
   String get clickTheLinkOnTheHomePageAndClickInstall => 'Napsauta etusivulla olevaa linkkiä ja valitse \"asenna laajennus\". Kun olet asentanut laajennuksen, suorita työpöytäsovellus ja avaa selainikkuna, tee uusi välilehti ja Deckr tulee näkyviin.';
 
   @override
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr has a few very useful keyboard shortcuts';
+
+  @override
   String get deckrHasTwoPartsABrowserPlugin => 'Deckr on kaksiosainen. Selainlaajennus (Chrome tai Firefox) ja työpöytäsovellus (Mac/Win/Linux).';
 
   @override
@@ -76,10 +79,10 @@ class AppLocalizationsFi extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => 'Tee uusi välilehti Deckr ja katso vasemmalta puolelta luettelo avoimista välilehdistä. Vedä välilehti keskimmäisen sarakkeen kirjanmerkkikannelle.';
 
   @override
-  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Monissa käyttöliittymän elementeissä on kontekstivalikot.';
 
   @override
-  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Näiden valikoiden avulla on käytettävissä monia hyödyllisiä ominaisuuksia.';
 
   @override
   String get noneOfYourBookmarksOrPersonalInformation => 'Mitään kirjanmerkkejäsi tai henkilökohtaisia tietojasi ei koskaan ladata pilvipalveluumme, ellet halua varmuuskopioida kansioitasi.';
@@ -97,10 +100,13 @@ class AppLocalizationsFi extends AppLocalizations {
   String get onWindowsDownloadTheInstallerUsing => 'Windowsissa lataa asennusohjelma kotisivulla olevan linkin kautta suorita asennusohjelma.';
 
   @override
+  String get opensTheSearchDialog => 'Opens the Search dialog';
+
+  @override
   String get ourGoalIsToBringBackTheGood => 'Tavoitteenamme on tuoda takaisin vanhat hyvät ajat surffailusta netissä.';
 
   @override
-  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
+  String get rightClickOnItemsToShowTheContextualMenus => 'Näytä kontekstivalikot napsauttamalla kohteita hiiren kakkospainikkeella.';
 
   @override
   String get signingInIsJustToProtectAgainst => 'Sisäänkirjautuminen on vain suojautuminen trolleilta ja nimettömiltä häiriköiltä.';
@@ -130,7 +136,13 @@ class AppLocalizationsFi extends AppLocalizations {
   String get thisServesThePurposeOfLettingYouKnowIt => 'Tämän tarkoituksena on ilmoittaa, että sovellus on käynnissä, ja siinä on lopeta-valikko, jotta voit tarvittaessa lopettaa työpöytäsovelluksen.';
 
   @override
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.';
+
+  @override
   String get toRequestARefundBeforeYouRequest => 'pyytääksesi hyvitystä. Ennen kuin pyydät hyvitystä, olisi hyvä kuulla, miksi olet tyytymätön. Ehkä voimme korjata ongelman seuraavassa päivityksessä.';
+
+  @override
+  String get usefulKeyboardShortcuts => 'Useful keyboard shortcuts';
 
   @override
   String get weCreatedDeckrToBeAUsefulTool => 'Loimme Deckr:n käyttökelpoiseksi työkaluksi, joka tarjoaa asiakkaalle lisäarvoa.';
@@ -187,13 +199,16 @@ class AppLocalizationsFi extends AppLocalizations {
   String get whyProblemDoesDeckrSolve => 'Miksi Deckr ratkaisee ongelman?';
 
   @override
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.';
+
+  @override
   String get youAlsoCanLookInTheRecentsListOn => 'Voit myös katsoa keskellä oikealla olevaa recents-luetteloa ja vetää kirjanmerkin sieltä.';
 
   @override
   String get youCanAlsoBackupYourBookmarksTo => 'Voit myös varmuuskopioida kirjanmerkkisi Deckr-pilveen, joka vaatii tilin, jotta se pysyy yksityisenä.';
 
   @override
-  String get youCanAlsoTypeCmdShiftLToAddThe => 'Voit myös kirjoittaa cmd-shift-L lisätäksesi nykyisen välilehden kirjanmerkin Deckr-näytön oikeassa yläkulmassa olevaan Lue myöhemmin -ruutuun.';
+  String get youCanAlsoTypeCmdShiftKToAddThe => 'Voit myös kirjoittaa Cmd-Shift-K lisätäksesi nykyisen välilehden kirjanmerkin Deckr-näytön oikeassa yläkulmassa olevaan Lue myöhemmin -ruutuun.';
 
   @override
   String get youCanStillRunDeckrButYou => 'Voit silti käyttää Deckr:tä, mutta näet \\\"nag\\\" -viestejä, joissa pyydetään sinua ostamaan.';

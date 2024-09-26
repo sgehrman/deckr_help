@@ -33,8 +33,8 @@ class HelpDataUtils {
 
     switch (id) {
       case HelpDataId.keyboardShortcuts:
-        title = const ParagrafSpec.md(
-          'Useful keyboard shortcuts',
+        title = ParagrafSpec.md(
+          l10n.usefulKeyboardShortcuts,
         );
         message = _HelpParagrafs.withId(context, id);
         break;
@@ -222,30 +222,30 @@ class _HelpParagrafs {
     switch (id) {
       case HelpDataId.keyboardShortcuts:
         return ParagrafSpec.sml(
-          'Deckr has a few very useful keyboard shortcuts',
+          l10n.deckrHasAFewVeryUsefulKeyboardShortcuts,
           newlines: 2,
           children: [
             const ParagrafSpec.smb(
-              'Cmd-shift-L:',
+              'Cmd-Shift-K:',
             ),
             ParagrafSpec.sml(
-              'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.',
+              l10n.willAddTheCurrentTabYouAreViewingIntoTheInbox,
               spaces: 2,
               newlines: 2,
             ),
             const ParagrafSpec.smb(
-              'Cmd-shift-F:',
+              'Cmd-Shift-F:',
             ),
             ParagrafSpec.sml(
-              'Opens the Search dialog',
+              l10n.opensTheSearchDialog,
               spaces: 2,
               newlines: 2,
             ),
             const ParagrafSpec.smb(
-              'Cmd-shift-X:',
+              'Cmd-Shift-X:',
             ),
             ParagrafSpec.sml(
-              'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.',
+              l10n.thisWillSelectTheDeckrTabOrCreateANewDeckrTab,
               spaces: 2,
               newlines: 2,
             ),
@@ -360,7 +360,7 @@ class _HelpParagrafs {
               newlines: 2,
             ),
             ParagrafSpec.sml(
-              l10n.youCanAlsoTypeCmdShiftLToAddThe,
+              l10n.youCanAlsoTypeCmdShiftKToAddThe,
               newlines: 2,
             ),
             ParagrafSpec.sml(

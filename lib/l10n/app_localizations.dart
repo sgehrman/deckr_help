@@ -159,6 +159,12 @@ abstract class AppLocalizations {
   /// **'Click the link on the home page and click \"install extension\". Once installed, run the desktop app and open a browser window, make a new tab and Deckr will show.'**
   String get clickTheLinkOnTheHomePageAndClickInstall;
 
+  /// No description provided for @deckrHasAFewVeryUsefulKeyboardShortcuts.
+  ///
+  /// In en, this message translates to:
+  /// **'Deckr has a few very useful keyboard shortcuts'**
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts;
+
   /// No description provided for @deckrHasTwoPartsABrowserPlugin.
   ///
   /// In en, this message translates to:
@@ -297,6 +303,12 @@ abstract class AppLocalizations {
   /// **'On Windows, download the installer using the link on the home page run the installer.'**
   String get onWindowsDownloadTheInstallerUsing;
 
+  /// No description provided for @opensTheSearchDialog.
+  ///
+  /// In en, this message translates to:
+  /// **'Opens the Search dialog'**
+  String get opensTheSearchDialog;
+
   /// No description provided for @ourGoalIsToBringBackTheGood.
   ///
   /// In en, this message translates to:
@@ -363,11 +375,23 @@ abstract class AppLocalizations {
   /// **'This serves the purpose of letting you know it\'s running and it has a quit menu item so you can quit the desktop app if needed.'**
   String get thisServesThePurposeOfLettingYouKnowIt;
 
+  /// No description provided for @thisWillSelectTheDeckrTabOrCreateANewDeckrTab.
+  ///
+  /// In en, this message translates to:
+  /// **'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.'**
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab;
+
   /// No description provided for @toRequestARefundBeforeYouRequest.
   ///
   /// In en, this message translates to:
   /// **'to request a refund. Before you request a refund, it would be great to hear why you are unhappy. Maybe we can fix the problem in the next update.'**
   String get toRequestARefundBeforeYouRequest;
+
+  /// No description provided for @usefulKeyboardShortcuts.
+  ///
+  /// In en, this message translates to:
+  /// **'Useful keyboard shortcuts'**
+  String get usefulKeyboardShortcuts;
 
   /// No description provided for @weCreatedDeckrToBeAUsefulTool.
   ///
@@ -477,6 +501,12 @@ abstract class AppLocalizations {
   /// **'Why problem does Deckr solve?'**
   String get whyProblemDoesDeckrSolve;
 
+  /// No description provided for @willAddTheCurrentTabYouAreViewingIntoTheInbox.
+  ///
+  /// In en, this message translates to:
+  /// **'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.'**
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox;
+
   /// No description provided for @youAlsoCanLookInTheRecentsListOn.
   ///
   /// In en, this message translates to:
@@ -489,11 +519,11 @@ abstract class AppLocalizations {
   /// **'You can also backup your bookmarks to the Deckr cloud which requires an account to keep it private'**
   String get youCanAlsoBackupYourBookmarksTo;
 
-  /// No description provided for @youCanAlsoTypeCmdShiftLToAddThe.
+  /// No description provided for @youCanAlsoTypeCmdShiftKToAddThe.
   ///
   /// In en, this message translates to:
-  /// **'You can also type cmd-shift-L to add the current tabs bookmark into the Read Later box on the top right of the Deckr screen.'**
-  String get youCanAlsoTypeCmdShiftLToAddThe;
+  /// **'You can also type Cmd-Shift-K to add the current tabs bookmark into the Read Later box on the top right of the Deckr screen.'**
+  String get youCanAlsoTypeCmdShiftKToAddThe;
 
   /// No description provided for @youCanStillRunDeckrButYou.
   ///

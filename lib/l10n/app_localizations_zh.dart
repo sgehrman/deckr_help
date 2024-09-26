@@ -28,6 +28,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get clickTheLinkOnTheHomePageAndClickInstall => '点击主页上的链接，然后点击 \"安装扩展\"。安装完成后，运行桌面应用程序并打开浏览器窗口，新建一个标签页，Deckr 就会显示出来。';
 
   @override
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr has a few very useful keyboard shortcuts';
+
+  @override
   String get deckrHasTwoPartsABrowserPlugin => 'Deckr 包括两个部分。一个浏览器插件（Chrome 或 Firefox）和一个桌面应用程序（Mac/Win/Linux）。';
 
   @override
@@ -76,10 +79,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get makeANewTabToBringUpDeckrAndLook => '新建一个标签页，打开 Deckr，在左侧查看打开的标签页列表。将标签拖动到中间一列的书签甲板上。';
 
   @override
-  String get manyElementsInTheUserInterfaceHaveContextualMenus => 'Many elements in the user interface have contextual menus';
+  String get manyElementsInTheUserInterfaceHaveContextualMenus => '用户界面中的许多元素都有上下文菜单';
 
   @override
-  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => 'Many userful features are available using these menus';
+  String get manyUserfulFeaturesAreAvailableUsingTheseMenus => '使用这些菜单可以获得许多实用功能';
 
   @override
   String get noneOfYourBookmarksOrPersonalInformation => '您的任何书签或个人信息都不会上传到我们的云端，除非您选择备份甲板。';
@@ -97,10 +100,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get onWindowsDownloadTheInstallerUsing => '在 Windows 系统中，使用主页上的链接下载安装程序，运行安装程序。';
 
   @override
+  String get opensTheSearchDialog => 'Opens the Search dialog';
+
+  @override
   String get ourGoalIsToBringBackTheGood => '我们的目标是让人们重温网上冲浪的美好时光。';
 
   @override
-  String get rightClickOnItemsToShowTheContextualMenus => 'Right click on items to show the contextual menus';
+  String get rightClickOnItemsToShowTheContextualMenus => '右键单击项目可显示上下文菜单';
 
   @override
   String get signingInIsJustToProtectAgainst => '登录只是为了防止巨魔和匿名麻烦制造者。';
@@ -130,7 +136,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get thisServesThePurposeOfLettingYouKnowIt => '这样做的目的是让你知道它正在运行，它还有一个退出菜单项，以便你在需要时退出桌面应用程序。';
 
   @override
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.';
+
+  @override
   String get toRequestARefundBeforeYouRequest => '申请退款。在您申请退款之前，我们很乐意听听您不满意的原因。也许我们可以在下一次更新中解决这个问题。';
+
+  @override
+  String get usefulKeyboardShortcuts => 'Useful keyboard shortcuts';
 
   @override
   String get weCreatedDeckrToBeAUsefulTool => '我们将 Deckr 打造成一个有用的工具，为客户提供价值。';
@@ -187,13 +199,16 @@ class AppLocalizationsZh extends AppLocalizations {
   String get whyProblemDoesDeckrSolve => 'Deckr 为什么能解决问题？';
 
   @override
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.';
+
+  @override
   String get youAlsoCanLookInTheRecentsListOn => '您还可以查看右侧中间的收藏列表，然后将书签拖入其中。';
 
   @override
   String get youCanAlsoBackupYourBookmarksTo => '您还可以将书签备份到 Deckr 云端，这需要一个账户来保密';
 
   @override
-  String get youCanAlsoTypeCmdShiftLToAddThe => '您还可以输入 cmd-shift-L 将当前标签页书签添加到 Deckr 屏幕右上方的 \"稍后阅读 \"框中。';
+  String get youCanAlsoTypeCmdShiftKToAddThe => '您还可以输入 Cmd-Shift-K 将当前标签页书签添加到 Deckr 屏幕右上方的 \"稍后阅读 \"框中。';
 
   @override
   String get youCanStillRunDeckrButYou => '你仍然可以运行 Deckr，但你会看到要求你购买的信息。';
