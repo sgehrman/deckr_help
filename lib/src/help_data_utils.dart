@@ -145,6 +145,7 @@ class HelpDataUtils {
 
     return l10n.weTriedToMakeEverythingAsSimpleAsPossible;
   }
+
   // ===========================================================
 
   static List<HelpData> all(BuildContext context) =>
@@ -174,42 +175,6 @@ class HelpDataUtils {
         helpDataWithId(context, HelpDataId.multipleComputers),
         helpDataWithId(context, HelpDataId.autoLaunchOnStartup),
       ];
-
-  static void _writeItem(ParagrafSpec item, StringBuffer buffer) {
-    buffer.write(item.text);
-    for (final c in item.children) {
-      _writeItem(c, buffer);
-    }
-  }
-
-  static String toHtml(BuildContext context) {
-    final buffer = StringBuffer();
-
-    buffer.write('<!DOCTYPE html><html><head>');
-    buffer.write('<meta charSet="utf-8"/>');
-    buffer.write('<title>Deckr Help</title>');
-    buffer.write(
-      '<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover"/>',
-    );
-    buffer.write('</head><body style="max-width: 600px">');
-
-    final data = HelpDataUtils.all(context);
-
-    for (final item in data) {
-      buffer.write('<h4>');
-      _writeItem(item.title, buffer);
-      buffer.write('</h4>');
-
-      buffer.write('<p>');
-      _writeItem(item.message, buffer);
-      buffer.write('</p>');
-    }
-
-    buffer.write('</body>');
-    buffer.write('</html>');
-
-    return buffer.toString();
-  }
 }
 
 // ===================================================================
