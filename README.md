@@ -1,3 +1,3 @@
-# dfc_dart
+# deckr_help
 
-Miscellaneous dart utilities
+Help data for deckr. Used in app and website
