@@ -1,3 +1,5 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -28,7 +30,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get clickTheLinkOnTheHomePageAndClickInstall => 'Napsauta etusivulla olevaa linkkiä ja valitse \"asenna laajennus\". Kun olet asentanut laajennuksen, suorita työpöytäsovellus ja avaa selainikkuna, tee uusi välilehti ja Deckr tulee näkyviin.';
 
   @override
-  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr has a few very useful keyboard shortcuts';
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr:ssä on muutama erittäin hyödyllinen pikanäppäin.';
 
   @override
   String get deckrHasTwoPartsABrowserPlugin => 'Deckr on kaksiosainen. Selainlaajennus (Chrome tai Firefox) ja työpöytäsovellus (Mac/Win/Linux).';
@@ -100,7 +102,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get onWindowsDownloadTheInstallerUsing => 'Windowsissa lataa asennusohjelma kotisivulla olevan linkin kautta suorita asennusohjelma.';
 
   @override
-  String get opensTheSearchDialog => 'Opens the Search dialog';
+  String get opensTheSearchDialog => 'Avaa hakuikkunan';
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Tavoitteenamme on tuoda takaisin vanhat hyvät ajat surffailusta netissä.';
@@ -136,13 +138,13 @@ class AppLocalizationsFi extends AppLocalizations {
   String get thisServesThePurposeOfLettingYouKnowIt => 'Tämän tarkoituksena on ilmoittaa, että sovellus on käynnissä, ja siinä on lopeta-valikko, jotta voit tarvittaessa lopettaa työpöytäsovelluksen.';
 
   @override
-  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.';
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'Tämä valitsee Deckr-välilehden tai luo uuden Deckr-välilehden.  Hienoa, jos haluat palata Deckr-välilehteen etkä halua etsiä sitä välilehtipalkista.';
 
   @override
   String get toRequestARefundBeforeYouRequest => 'pyytääksesi hyvitystä. Ennen kuin pyydät hyvitystä, olisi hyvä kuulla, miksi olet tyytymätön. Ehkä voimme korjata ongelman seuraavassa päivityksessä.';
 
   @override
-  String get usefulKeyboardShortcuts => 'Useful keyboard shortcuts';
+  String get usefulKeyboardShortcuts => 'Hyödylliset pikanäppäimet';
 
   @override
   String get weCreatedDeckrToBeAUsefulTool => 'Loimme Deckr:n käyttökelpoiseksi työkaluksi, joka tarjoaa asiakkaalle lisäarvoa.';
@@ -199,7 +201,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get whyProblemDoesDeckrSolve => 'Miksi Deckr ratkaisee ongelman?';
 
   @override
-  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.';
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Lisää tarkasteltavana olevan välilehden Saapuneet-kansioon. Tämä on hyödyllistä, jos haluat tallentaa linkin, mutta et halua käsitellä sitä juuri nyt. Kun sinulla on aikaa, voit raahata sen Saapuneet-kansiosta kansioon.';
 
   @override
   String get youAlsoCanLookInTheRecentsListOn => 'Voit myös katsoa keskellä oikealla olevaa recents-luetteloa ja vetää kirjanmerkin sieltä.';

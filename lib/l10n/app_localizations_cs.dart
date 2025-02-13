@@ -1,3 +1,5 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -28,7 +30,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get clickTheLinkOnTheHomePageAndClickInstall => 'Klikněte na odkaz na domovské stránce a klikněte na \"install extension\". Po instalaci spusťte aplikaci na ploše a otevřete okno prohlížeče, vytvořte novou kartu a zobrazí se Deckr.';
 
   @override
-  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr has a few very useful keyboard shortcuts';
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr má několik velmi užitečných klávesových zkratek';
 
   @override
   String get deckrHasTwoPartsABrowserPlugin => 'Deckr má dvě části. Zásuvný modul prohlížeče (Chrome nebo Firefox) a desktopovou aplikaci (Mac/Win/Linux).';
@@ -100,7 +102,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get onWindowsDownloadTheInstallerUsing => 'V systému Windows stáhněte instalační program pomocí odkazu na domovské stránce a spusťte jej.';
 
   @override
-  String get opensTheSearchDialog => 'Opens the Search dialog';
+  String get opensTheSearchDialog => 'Otevře dialogové okno Hledat';
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Naším cílem je vrátit staré dobré časy surfování po webu.';
@@ -136,13 +138,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get thisServesThePurposeOfLettingYouKnowIt => 'Slouží k tomu, abyste věděli, že je spuštěna, a obsahuje položku nabídky ukončení, takže v případě potřeby můžete aplikaci na ploše ukončit.';
 
   @override
-  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.';
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'Tím vyberete kartu Deckr nebo vytvoříte novou kartu Deckr.  Skvělé, pokud se chcete vrátit na kartu Deckr a nechcete ji hledat na pásu karet.';
 
   @override
   String get toRequestARefundBeforeYouRequest => 'požádat o vrácení peněz. Než požádáte o vrácení peněz, bylo by dobré si vyslechnout, proč jste nespokojeni. Možná se nám podaří problém vyřešit v příští aktualizaci.';
 
   @override
-  String get usefulKeyboardShortcuts => 'Useful keyboard shortcuts';
+  String get usefulKeyboardShortcuts => 'Užitečné klávesové zkratky';
 
   @override
   String get weCreatedDeckrToBeAUsefulTool => 'Vytvořili jsme Deckr jako užitečný nástroj, který zákazníkovi přináší hodnotu.';
@@ -199,7 +201,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get whyProblemDoesDeckrSolve => 'Jaký problém řeší Deckr?';
 
   @override
-  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.';
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Přidá aktuální zobrazenou kartu do složky Doručená pošta. To je užitečné, pokud chcete tento odkaz uložit, ale nechcete se jím zabývat právě teď. Až budete mít čas, můžete jej přetáhnout z Doručené pošty do balíčku.';
 
   @override
   String get youAlsoCanLookInTheRecentsListOn => 'Můžete se také podívat do seznamu posledních položek vpravo uprostřed a přetáhnout záložku odtud.';

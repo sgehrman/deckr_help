@@ -1,3 +1,5 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -28,7 +30,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get clickTheLinkOnTheHomePageAndClickInstall => 'ホームページのリンクをクリックし、「拡張機能をインストール」をクリックする。インストールが完了したら、デスクトップアプリを実行し、ブラウザウィンドウを開き、新しいタブを作成すると、Deckrが表示される。';
 
   @override
-  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr has a few very useful keyboard shortcuts';
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckrには非常に便利なキーボードショートカットがいくつかある。';
 
   @override
   String get deckrHasTwoPartsABrowserPlugin => 'Deckrには2つの部分がある。ブラウザ・プラグイン（ChromeまたはFirefox）とデスクトップ・アプリ（Mac/Win/Linux）だ。';
@@ -100,7 +102,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get onWindowsDownloadTheInstallerUsing => 'Windowsの場合は、ホームページのリンクからインストーラーをダウンロードし、インストーラーを実行する。';
 
   @override
-  String get opensTheSearchDialog => 'Opens the Search dialog';
+  String get opensTheSearchDialog => '検索ダイアログを開く';
 
   @override
   String get ourGoalIsToBringBackTheGood => '私たちの目標は、古き良き時代のネットサーフィンを取り戻すことだ。';
@@ -136,13 +138,13 @@ class AppLocalizationsJa extends AppLocalizations {
   String get thisServesThePurposeOfLettingYouKnowIt => 'これは実行中であることを知らせる役割を果たし、必要に応じてデスクトップアプリを終了できるよう、終了メニュー項目がある。';
 
   @override
-  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.';
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'これはDeckrタブを選択するか、新しいDeckrタブを作る。  Deckrに戻りたいとき、タブバーから探さなくてもいいのなら最高だ。';
 
   @override
   String get toRequestARefundBeforeYouRequest => 'に返金を要請する。返金を要求する前に、なぜ不満なのかを聞いていただけるとありがたい。次のアップデートで問題を解決できるかもしれない。';
 
   @override
-  String get usefulKeyboardShortcuts => 'Useful keyboard shortcuts';
+  String get usefulKeyboardShortcuts => '便利なキーボードショートカット';
 
   @override
   String get weCreatedDeckrToBeAUsefulTool => 'Deckrは、顧客に価値を提供する便利なツールであることを目指した。';
@@ -199,7 +201,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get whyProblemDoesDeckrSolve => 'Deckrはなぜ問題を解決するのか？';
 
   @override
-  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.';
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => '現在表示しているタブを受信トレイに追加する。このリンクを保存したいが、今すぐには処理したくない場合に便利だ。時間があるときに、受信トレイからデッキにドラッグできる。';
 
   @override
   String get youAlsoCanLookInTheRecentsListOn => 'また、右中央の「最近」リストを見て、そこからブックマークをドラッグすることもできる。';

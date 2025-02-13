@@ -1,3 +1,5 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -28,7 +30,7 @@ class AppLocalizationsDa extends AppLocalizations {
   String get clickTheLinkOnTheHomePageAndClickInstall => 'Klik på linket på hjemmesiden, og klik på \"installer udvidelse\". Når den er installeret, skal du køre desktop-appen og åbne et browservindue, oprette en ny fane, og Deckr vil blive vist.';
 
   @override
-  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr has a few very useful keyboard shortcuts';
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr har et par meget nyttige tastaturgenveje';
 
   @override
   String get deckrHasTwoPartsABrowserPlugin => 'Deckr består af to dele. Et browser-plugin (Chrome eller Firefox) og en desktop-app (Mac/Win/Linux).';
@@ -100,7 +102,7 @@ class AppLocalizationsDa extends AppLocalizations {
   String get onWindowsDownloadTheInstallerUsing => 'På Windows skal du downloade installationsprogrammet via linket på hjemmesiden.';
 
   @override
-  String get opensTheSearchDialog => 'Opens the Search dialog';
+  String get opensTheSearchDialog => 'Åbner dialogboksen Søg';
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Vores mål er at bringe de gode gamle dage tilbage, hvor man surfede på nettet.';
@@ -136,13 +138,13 @@ class AppLocalizationsDa extends AppLocalizations {
   String get thisServesThePurposeOfLettingYouKnowIt => 'Den har til formål at fortælle dig, at den kører, og den har et afslutningsmenupunkt, så du kan afslutte desktop-appen, hvis det er nødvendigt.';
 
   @override
-  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.';
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'Dette vælger fanen Deckr eller opretter en ny Deckr-fane.  Perfekt, hvis du vil tilbage til Deckr og ikke vil finde den i fanebladet.';
 
   @override
   String get toRequestARefundBeforeYouRequest => 'for at anmode om en refusion. Før du anmoder om en refundering, ville det være rart at høre, hvorfor du er utilfreds. Måske kan vi løse problemet i den næste opdatering.';
 
   @override
-  String get usefulKeyboardShortcuts => 'Useful keyboard shortcuts';
+  String get usefulKeyboardShortcuts => 'Nyttige tastaturgenveje';
 
   @override
   String get weCreatedDeckrToBeAUsefulTool => 'Vi skabte Deckr for at være et nyttigt værktøj, der giver værdi for kunden.';
@@ -199,7 +201,7 @@ class AppLocalizationsDa extends AppLocalizations {
   String get whyProblemDoesDeckrSolve => 'Hvilket problem løser Deckr?';
 
   @override
-  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.';
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Tilføjer den aktuelle fane, du ser på, til indbakken. Det er nyttigt, hvis du gerne vil gemme linket, men ikke har lyst til at arbejde med det lige nu. Når du har tid, kan du trække det fra indbakken til et dæk.';
 
   @override
   String get youAlsoCanLookInTheRecentsListOn => 'Du kan også kigge i recents-listen i midten til højre og trække bogmærket ind derfra.';

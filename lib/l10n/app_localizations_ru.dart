@@ -1,3 +1,5 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -28,7 +30,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get clickTheLinkOnTheHomePageAndClickInstall => 'Перейди по ссылке на главной странице и нажми \"установить расширение\". После установки запусти десктопное приложение и открой окно браузера, сделай новую вкладку, и на ней появится Deckr.';
 
   @override
-  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr has a few very useful keyboard shortcuts';
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'У Deckr есть несколько очень полезных сочетаний клавиш';
 
   @override
   String get deckrHasTwoPartsABrowserPlugin => 'Deckr состоит из двух частей. Плагин для браузера (Chrome или Firefox) и приложение для настольного компьютера (Mac/Win/Linux).';
@@ -100,7 +102,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get onWindowsDownloadTheInstallerUsing => 'В Windows скачай инсталлятор по ссылке на главной странице и запусти его.';
 
   @override
-  String get opensTheSearchDialog => 'Opens the Search dialog';
+  String get opensTheSearchDialog => 'Открывает диалог поиска';
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Наша цель - вернуть старые добрые времена веб-серфинга.';
@@ -136,13 +138,13 @@ class AppLocalizationsRu extends AppLocalizations {
   String get thisServesThePurposeOfLettingYouKnowIt => 'Он служит для того, чтобы сообщить тебе, что приложение запущено, и в нем есть пункт меню \"Выход\", чтобы ты мог выйти из настольного приложения при необходимости.';
 
   @override
-  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.';
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'Это позволит выбрать вкладку Deckr или создать новую вкладку Deckr.  Отлично, если ты хочешь вернуться к Deckr и не хочешь искать ее на панели вкладок.';
 
   @override
   String get toRequestARefundBeforeYouRequest => 'чтобы запросить возврат денег. Прежде чем ты запросишь возврат денег, было бы здорово услышать, почему ты недоволен. Возможно, мы сможем исправить проблему в следующем обновлении.';
 
   @override
-  String get usefulKeyboardShortcuts => 'Useful keyboard shortcuts';
+  String get usefulKeyboardShortcuts => 'Полезные сочетания клавиш';
 
   @override
   String get weCreatedDeckrToBeAUsefulTool => 'Мы создали Deckr, чтобы он стал полезным инструментом, обеспечивающим ценность для клиента.';
@@ -199,7 +201,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get whyProblemDoesDeckrSolve => 'Какую проблему решает Deckr?';
 
   @override
-  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.';
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Добавит текущую вкладку, которую ты просматриваешь, в папку \"Входящие\". Это полезно, если ты хочешь сохранить ссылку, но не хочешь заниматься этим прямо сейчас. Когда у тебя появится время, ты сможешь перетащить ее из папки \"Входящие\" в колоду.';
 
   @override
   String get youAlsoCanLookInTheRecentsListOn => 'Также ты можешь заглянуть в список recents справа по центру и перетащить закладку оттуда.';

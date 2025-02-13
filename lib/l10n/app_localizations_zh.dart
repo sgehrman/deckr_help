@@ -1,3 +1,5 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -28,7 +30,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get clickTheLinkOnTheHomePageAndClickInstall => '点击主页上的链接，然后点击 \"安装扩展\"。安装完成后，运行桌面应用程序并打开浏览器窗口，新建一个标签页，Deckr 就会显示出来。';
 
   @override
-  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr has a few very useful keyboard shortcuts';
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr 有几个非常有用的键盘快捷键';
 
   @override
   String get deckrHasTwoPartsABrowserPlugin => 'Deckr 包括两个部分。一个浏览器插件（Chrome 或 Firefox）和一个桌面应用程序（Mac/Win/Linux）。';
@@ -100,7 +102,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get onWindowsDownloadTheInstallerUsing => '在 Windows 系统中，使用主页上的链接下载安装程序，运行安装程序。';
 
   @override
-  String get opensTheSearchDialog => 'Opens the Search dialog';
+  String get opensTheSearchDialog => '打开搜索对话框';
 
   @override
   String get ourGoalIsToBringBackTheGood => '我们的目标是让人们重温网上冲浪的美好时光。';
@@ -136,13 +138,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get thisServesThePurposeOfLettingYouKnowIt => '这样做的目的是让你知道它正在运行，它还有一个退出菜单项，以便你在需要时退出桌面应用程序。';
 
   @override
-  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.';
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => '这将选择 Deckr 标签，或创建一个新的 Deckr 标签。  如果你想回到 Deckr 而又不想在标签栏中找到它，那么这个功能就很不错。';
 
   @override
   String get toRequestARefundBeforeYouRequest => '申请退款。在您申请退款之前，我们很乐意听听您不满意的原因。也许我们可以在下一次更新中解决这个问题。';
 
   @override
-  String get usefulKeyboardShortcuts => 'Useful keyboard shortcuts';
+  String get usefulKeyboardShortcuts => '实用键盘快捷键';
 
   @override
   String get weCreatedDeckrToBeAUsefulTool => '我们将 Deckr 打造成一个有用的工具，为客户提供价值。';
@@ -199,7 +201,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get whyProblemDoesDeckrSolve => 'Deckr 为什么能解决问题？';
 
   @override
-  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.';
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => '将把您正在查看的当前标签页添加到收件箱中。如果你想保存这个链接，但现在又不想处理它，这就很有用了。有时间的话，你可以把它从收件箱拖到甲板上。';
 
   @override
   String get youAlsoCanLookInTheRecentsListOn => '您还可以查看右侧中间的收藏列表，然后将书签拖入其中。';

@@ -1,3 +1,5 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -28,7 +30,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get clickTheLinkOnTheHomePageAndClickInstall => 'Klik op de link op de startpagina en klik op \"extensie installeren\". Start na de installatie de desktop-app en open een browservenster, maak een nieuw tabblad en Deckr wordt weergegeven.';
 
   @override
-  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr has a few very useful keyboard shortcuts';
+  String get deckrHasAFewVeryUsefulKeyboardShortcuts => 'Deckr heeft een paar heel handige sneltoetsen';
 
   @override
   String get deckrHasTwoPartsABrowserPlugin => 'Deckr bestaat uit twee delen. Een browser plugin (Chrome of Firefox) en een desktop app (Mac/Win/Linux).';
@@ -100,7 +102,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get onWindowsDownloadTheInstallerUsing => 'Download op Windows het installatieprogramma via de link op de startpagina en voer het uit.';
 
   @override
-  String get opensTheSearchDialog => 'Opens the Search dialog';
+  String get opensTheSearchDialog => 'Opent het dialoogvenster Zoeken';
 
   @override
   String get ourGoalIsToBringBackTheGood => 'Ons doel is om de goede oude tijd van surfen op het web terug te brengen.';
@@ -136,13 +138,13 @@ class AppLocalizationsNl extends AppLocalizations {
   String get thisServesThePurposeOfLettingYouKnowIt => 'Dit dient om je te laten weten dat het draait en het heeft een afsluitmenu-item zodat je de desktop-app kunt afsluiten als dat nodig is.';
 
   @override
-  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'This will select the Deckr tab, or create a new Deckr tab.  Great if you want to get back to Deckr and don\'t want to have to find it in the tab bar.';
+  String get thisWillSelectTheDeckrTabOrCreateANewDeckrTab => 'Hiermee selecteer je het tabblad Deckr of maak je een nieuw tabblad Deckr.  Handig als je terug wilt naar Deckr en het niet in de tabbalk wilt zoeken.';
 
   @override
   String get toRequestARefundBeforeYouRequest => 'om je geld terug te vragen. Voordat je je geld terugvraagt, zou het fijn zijn om te horen waarom je ontevreden bent. Misschien kunnen we het probleem in de volgende update oplossen.';
 
   @override
-  String get usefulKeyboardShortcuts => 'Useful keyboard shortcuts';
+  String get usefulKeyboardShortcuts => 'Handige sneltoetsen';
 
   @override
   String get weCreatedDeckrToBeAUsefulTool => 'We hebben Deckr gemaakt om een nuttig hulpmiddel te zijn dat waarde toevoegt voor de klant.';
@@ -199,7 +201,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get whyProblemDoesDeckrSolve => 'Welk probleem lost Deckr op?';
 
   @override
-  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Will add the current tab you are viewing into the Inbox. This is useful if you would like to save this link, but don\'t want to deal with is right now. When you have time, you can drag it from the Inbox into a deck.';
+  String get willAddTheCurrentTabYouAreViewingIntoTheInbox => 'Voegt het huidige tabblad dat je bekijkt toe aan de Inbox. Dit is handig als je deze link wilt opslaan, maar er nu nog geen tijd voor hebt. Als je tijd hebt, kun je de link vanuit Inbox naar een deck slepen.';
 
   @override
   String get youAlsoCanLookInTheRecentsListOn => 'Je kunt ook kijken in de lijst met Favorieten rechts in het midden en van daaruit bladwijzers naar binnen slepen.';
