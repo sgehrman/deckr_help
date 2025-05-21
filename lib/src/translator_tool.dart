@@ -25,7 +25,7 @@ class Translator {
   static Future<void> start() async {
     final englishMap = _arbMap('en');
 
-    const JsonEncoder encoder = JsonEncoder.withIndent('  ');
+    const encoder = JsonEncoder.withIndent('  ');
 
     final languageCodes = [
       // 'en',
@@ -63,8 +63,10 @@ class Translator {
           if (existing.isNotEmpty && englishMap[item.key] != existing) {
             sourceMapCopy[item.key] = existing;
           } else {
-            sourceMapCopy[item.key] =
-                await _translate(item.value, languageCode);
+            sourceMapCopy[item.key] = await _translate(
+              item.value,
+              languageCode,
+            );
           }
         }
       }
@@ -106,7 +108,7 @@ class Translator {
     // final uri = Uri.parse('https://api.deepl.com/v2/translate');
 
     // replace "Deckr" with "512W345" so it won't get translated
-    final String copied = text.replaceAll('Deckr', '512W345');
+    final copied = text.replaceAll('Deckr', '512W345');
 
     final body = <String, String>{
       'text': copied,
