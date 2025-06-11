@@ -104,15 +104,16 @@ class Translator {
       return text;
     }
 
-    final uri = Uri.parse('https://api-free.deepl.com/v2/translate');
-    // final uri = Uri.parse('https://api.deepl.com/v2/translate');
+    // final uri = Uri.parse('https://api-free.deepl.com/v2/translate');
+    final uri = Uri.parse('https://api.deepl.com/v2/translate');
 
     // replace "Deckr" with "512W345" so it won't get translated
     final copied = text.replaceAll('Deckr', '512W345');
 
     final body = <String, String>{
       'text': copied,
-      'auth_key': 'faddb949-42f4-3695-d7c5-6316a360cb15:fx',
+      // 'auth_key': 'faddb949-42f4-3695-d7c5-6316a360cb15:fx',  // free
+      'auth_key': 'd9d95494-f71a-46fb-8aa9-3073706622fc',
       'target_lang': languageCode,
       'source_lang': 'en',
       'format': 'text',
