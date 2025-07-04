@@ -2,7 +2,8 @@ import 'package:deckr_help/l10n/app_localizations.dart';
 import 'package:dfc_flutter/dfc_flutter_web_lite.dart';
 import 'package:flutter/material.dart';
 
-const kSalesEmail = 'sales@cocoatech.com';
+const kSalesEmail = 'help@cocoatech.com';
+const kDeckrUrl = 'https://deckr.surf';
 
 enum HelpDataId {
   whatIsALicenseKey,
@@ -377,9 +378,14 @@ class _HelpParagrafs {
 
       case HelpDataId.deckrLinksPageDialog:
         return ParagrafSpec.sml(
-          'These bookmark decks are created using the Deckr browser extension.',
-          newlines: 2,
+          'These bookmark decks are created using the',
           children: [
+            const ParagrafSpec.linkSm(
+              'Deckr browser extension',
+              href: kDeckrUrl,
+              spaces: 1,
+              newlines: 2,
+            ),
             ParagrafSpec.sml(
               'If you have a great collection of bookmarks, download the Deckr browser extension to manage and share them with others.',
               newlines: 2,
