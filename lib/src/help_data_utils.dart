@@ -34,9 +34,7 @@ class HelpDataUtils {
 
     switch (id) {
       case HelpDataId.keyboardShortcuts:
-        title = ParagrafSpec.md(
-          l10n.usefulKeyboardShortcuts,
-        );
+        title = ParagrafSpec.md(l10n.usefulKeyboardShortcuts);
         message = _HelpParagrafs.withId(context, id);
         break;
       case HelpDataId.contextualMenus:
@@ -46,9 +44,7 @@ class HelpDataUtils {
         message = _HelpParagrafs.withId(context, id);
         break;
       case HelpDataId.scalingTheUI:
-        title = ParagrafSpec.md(
-          l10n.howDoIScaleDeckrSUserInterface,
-        );
+        title = ParagrafSpec.md(l10n.howDoIScaleDeckrSUserInterface);
         message = _HelpParagrafs.withId(context, id);
         break;
       case HelpDataId.whatIsALicenseKey:
@@ -103,9 +99,7 @@ class HelpDataUtils {
         break;
 
       case HelpDataId.whySignIn:
-        title = ParagrafSpec.md(
-          l10n.whyDoIHaveToSignInToAccessTheDeckStore,
-        );
+        title = ParagrafSpec.md(l10n.whyDoIHaveToSignInToAccessTheDeckStore);
         message = _HelpParagrafs.withId(context, id);
         break;
 
@@ -115,16 +109,12 @@ class HelpDataUtils {
         break;
 
       case HelpDataId.multipleComputers:
-        title = ParagrafSpec.md(
-          l10n.howDoIInstallDeckrOnMultipleComputers,
-        );
+        title = ParagrafSpec.md(l10n.howDoIInstallDeckrOnMultipleComputers);
         message = _HelpParagrafs.withId(context, id);
         break;
 
       case HelpDataId.autoLaunchOnStartup:
-        title = ParagrafSpec.md(
-          l10n.howDoSetDeckrToAutoLaunchOnStartup,
-        );
+        title = ParagrafSpec.md(l10n.howDoSetDeckrToAutoLaunchOnStartup);
         message = _HelpParagrafs.withId(context, id);
         break;
 
@@ -134,10 +124,7 @@ class HelpDataUtils {
         break;
     }
 
-    return HelpData(
-      title: title,
-      message: message,
-    );
+    return HelpData(title: title, message: message);
   }
 
   static String mHelpIntro(BuildContext context) {
@@ -152,29 +139,29 @@ class HelpDataUtils {
       HelpDataId.values.map((e) => helpDataWithId(context, e)).toList();
 
   static List<HelpData> aboutDialog(BuildContext context) => [
-        helpDataWithId(context, HelpDataId.extensionAndApp),
-        helpDataWithId(context, HelpDataId.blueIconOnMenuBar),
-        helpDataWithId(context, HelpDataId.scalingTheUI),
-        helpDataWithId(context, HelpDataId.contextualMenus),
-        helpDataWithId(context, HelpDataId.whySignIn),
-        helpDataWithId(context, HelpDataId.howToSetBookmark),
-        helpDataWithId(context, HelpDataId.privacy),
-      ];
+    helpDataWithId(context, HelpDataId.extensionAndApp),
+    helpDataWithId(context, HelpDataId.blueIconOnMenuBar),
+    helpDataWithId(context, HelpDataId.scalingTheUI),
+    helpDataWithId(context, HelpDataId.contextualMenus),
+    helpDataWithId(context, HelpDataId.whySignIn),
+    helpDataWithId(context, HelpDataId.howToSetBookmark),
+    helpDataWithId(context, HelpDataId.privacy),
+  ];
 
   static List<HelpData> purchasingDialog(BuildContext context) => [
-        helpDataWithId(context, HelpDataId.whatIsALicenseKey),
-        helpDataWithId(context, HelpDataId.whatAreActivations),
-        helpDataWithId(context, HelpDataId.coupons),
-        helpDataWithId(context, HelpDataId.refunds),
-        helpDataWithId(context, HelpDataId.expiredLicense),
-      ];
+    helpDataWithId(context, HelpDataId.whatIsALicenseKey),
+    helpDataWithId(context, HelpDataId.whatAreActivations),
+    helpDataWithId(context, HelpDataId.coupons),
+    helpDataWithId(context, HelpDataId.refunds),
+    helpDataWithId(context, HelpDataId.expiredLicense),
+  ];
 
   static List<HelpData> installationDialog(BuildContext context) => [
-        helpDataWithId(context, HelpDataId.installingDesktopApp),
-        helpDataWithId(context, HelpDataId.installingTheExtension),
-        helpDataWithId(context, HelpDataId.multipleComputers),
-        helpDataWithId(context, HelpDataId.autoLaunchOnStartup),
-      ];
+    helpDataWithId(context, HelpDataId.installingDesktopApp),
+    helpDataWithId(context, HelpDataId.installingTheExtension),
+    helpDataWithId(context, HelpDataId.multipleComputers),
+    helpDataWithId(context, HelpDataId.autoLaunchOnStartup),
+  ];
 }
 
 // ===================================================================
@@ -191,25 +178,15 @@ class _HelpParagrafs {
           l10n.deckrHasAFewVeryUsefulKeyboardShortcuts,
           newlines: 2,
           children: [
-            const ParagrafSpec.smb(
-              'Cmd-Shift-K:',
-            ),
+            const ParagrafSpec.smb('Cmd-Shift-K:'),
             ParagrafSpec.sml(
               l10n.willAddTheCurrentTabYouAreViewingIntoTheInbox,
               spaces: 2,
               newlines: 2,
             ),
-            const ParagrafSpec.smb(
-              'Cmd-Shift-F:',
-            ),
-            ParagrafSpec.sml(
-              l10n.opensTheSearchDialog,
-              spaces: 2,
-              newlines: 2,
-            ),
-            const ParagrafSpec.smb(
-              'Cmd-Shift-X:',
-            ),
+            const ParagrafSpec.smb('Cmd-Shift-F:'),
+            ParagrafSpec.sml(l10n.opensTheSearchDialog, spaces: 2, newlines: 2),
+            const ParagrafSpec.smb('Cmd-Shift-X:'),
             ParagrafSpec.sml(
               l10n.thisWillSelectTheDeckrTabOrCreateANewDeckrTab,
               spaces: 2,
@@ -231,11 +208,7 @@ class _HelpParagrafs {
         return ParagrafSpec.sml(
           l10n.ifTheUserInterfaceIsTooSmallToRead,
           newlines: 2,
-          children: [
-            ParagrafSpec.sml(
-              l10n.onceYouSetTheZoomLevelItWi,
-            ),
-          ],
+          children: [ParagrafSpec.sml(l10n.onceYouSetTheZoomLevelItWi)],
         );
       case HelpDataId.whatIsALicenseKey:
         return ParagrafSpec.sml(
@@ -255,10 +228,7 @@ class _HelpParagrafs {
         return ParagrafSpec.sml(
           l10n.aLicenseKeyMustBeActivatedOnYourMachine,
           children: [
-            ParagrafSpec.sml(
-              l10n.byDefaultYouAreGiven3Activations,
-              spaces: 2,
-            ),
+            ParagrafSpec.sml(l10n.byDefaultYouAreGiven3Activations, spaces: 2),
           ],
         );
 
@@ -266,18 +236,12 @@ class _HelpParagrafs {
         return ParagrafSpec.sml(
           l10n.weTakePrivacySeriouslyAndWeWouldNeverDoAnything,
           children: [
-            ParagrafSpec.sml(
-              l10n.weCreatedDeckrToBeAUsefulTool,
-              spaces: 2,
-            ),
+            ParagrafSpec.sml(l10n.weCreatedDeckrToBeAUsefulTool, spaces: 2),
             ParagrafSpec.sml(
               l10n.noneOfYourBookmarksOrPersonalInformation,
               spaces: 2,
             ),
-            ParagrafSpec.sml(
-              l10n.allOfYourBookmarksAreSavedOn,
-              spaces: 2,
-            ),
+            ParagrafSpec.sml(l10n.allOfYourBookmarksAreSavedOn, spaces: 2),
           ],
         );
 
@@ -289,22 +253,13 @@ class _HelpParagrafs {
               l10n.youMayHaveNoticedThatSearchingWithGoogleOr,
               spaces: 2,
             ),
-            ParagrafSpec.sml(
-              l10n.theAlgoritmsArenTThereToHelpYou,
-              spaces: 2,
-            ),
+            ParagrafSpec.sml(l10n.theAlgoritmsArenTThereToHelpYou, spaces: 2),
             ParagrafSpec.sml(
               l10n.youtubeForExampleHasSomeGreatContent,
               spaces: 2,
             ),
-            ParagrafSpec.sml(
-              l10n.theProblemIsDiscoveryNowDaysMost,
-              spaces: 2,
-            ),
-            ParagrafSpec.sml(
-              l10n.ourGoalIsToBringBackTheGood,
-              spaces: 2,
-            ),
+            ParagrafSpec.sml(l10n.theProblemIsDiscoveryNowDaysMost, spaces: 2),
+            ParagrafSpec.sml(l10n.ourGoalIsToBringBackTheGood, spaces: 2),
             ParagrafSpec.sml(
               l10n.discovingGreatContentIsUpToUsPeople,
               spaces: 2,
@@ -317,21 +272,13 @@ class _HelpParagrafs {
           l10n.inTheBrowserYouSetABookmark,
           newlines: 2,
           children: [
-            ParagrafSpec.sml(
-              l10n.thatSNotPossibleWithDeckrBut,
-              newlines: 2,
-            ),
+            ParagrafSpec.sml(l10n.thatSNotPossibleWithDeckrBut, newlines: 2),
             ParagrafSpec.sml(
               l10n.makeANewTabToBringUpDeckrAndLook,
               newlines: 2,
             ),
-            ParagrafSpec.sml(
-              l10n.youCanAlsoTypeCmdShiftKToAddThe,
-              newlines: 2,
-            ),
-            ParagrafSpec.sml(
-              l10n.youAlsoCanLookInTheRecentsListOn,
-            ),
+            ParagrafSpec.sml(l10n.youCanAlsoTypeCmdShiftKToAddThe, newlines: 2),
+            ParagrafSpec.sml(l10n.youAlsoCanLookInTheRecentsListOn),
           ],
         );
 
@@ -339,38 +286,24 @@ class _HelpParagrafs {
         return ParagrafSpec.sml(
           l10n.weHaveA30DayRefundPolicyEmailThe,
           children: [
-            const ParagrafSpec.linkSm(
-              ' sales team ',
-              href: kSalesEmail,
-            ),
-            ParagrafSpec.sml(
-              l10n.toRequestARefundBeforeYouRequest,
-            ),
+            const ParagrafSpec.linkSm(' sales team ', href: kSalesEmail),
+            ParagrafSpec.sml(l10n.toRequestARefundBeforeYouRequest),
           ],
         );
 
       case HelpDataId.coupons:
-        return ParagrafSpec.sml(
-          l10n.weLlEitherEmailPeopleOnOur,
-        );
+        return ParagrafSpec.sml(l10n.weLlEitherEmailPeopleOnOur);
 
       case HelpDataId.multipleComputers:
-        return ParagrafSpec.sml(
-          l10n.justEnterTheLicenseKeyOnAnother,
-        );
+        return ParagrafSpec.sml(l10n.justEnterTheLicenseKeyOnAnother);
 
       case HelpDataId.extensionAndApp:
         return ParagrafSpec.sml(
           l10n.deckrHasTwoPartsABrowserPlugin,
           newlines: 2,
           children: [
-            ParagrafSpec.sml(
-              l10n.theDesktopActsAsALocalWebserver,
-              newlines: 2,
-            ),
-            ParagrafSpec.sml(
-              l10n.theBrowserExtensionThat,
-            ),
+            ParagrafSpec.sml(l10n.theDesktopActsAsALocalWebserver, newlines: 2),
+            ParagrafSpec.sml(l10n.theBrowserExtensionThat),
           ],
         );
 
@@ -383,9 +316,7 @@ class _HelpParagrafs {
               l10n.onWindowsDownloadTheInstallerUsing,
               newlines: 2,
             ),
-            ParagrafSpec.sml(
-              l10n.onLinuxClickTheLinkOnTheHomePage,
-            ),
+            ParagrafSpec.sml(l10n.onLinuxClickTheLinkOnTheHomePage),
           ],
         );
 
@@ -394,16 +325,12 @@ class _HelpParagrafs {
           l10n.theExtensionIsListedOnTheChrome,
           newlines: 2,
           children: [
-            ParagrafSpec.sml(
-              l10n.clickTheLinkOnTheHomePageAndClickInstall,
-            ),
+            ParagrafSpec.sml(l10n.clickTheLinkOnTheHomePageAndClickInstall),
           ],
         );
 
       case HelpDataId.expiredLicense:
-        return ParagrafSpec.sml(
-          l10n.youCanStillRunDeckrButYou,
-        );
+        return ParagrafSpec.sml(l10n.youCanStillRunDeckrButYou);
 
       case HelpDataId.blueIconOnMenuBar:
         return ParagrafSpec.sml(
@@ -414,13 +341,8 @@ class _HelpParagrafs {
               l10n.thisServesThePurposeOfLettingYouKnowIt,
               newlines: 2,
             ),
-            ParagrafSpec.sml(
-              l10n.ifYouOpenTheAboutDeckrMenuItem,
-              newlines: 2,
-            ),
-            ParagrafSpec.sml(
-              l10n.thereAreAFewOtherMenuItemsFor,
-            ),
+            ParagrafSpec.sml(l10n.ifYouOpenTheAboutDeckrMenuItem, newlines: 2),
+            ParagrafSpec.sml(l10n.thereAreAFewOtherMenuItemsFor),
           ],
         );
 
@@ -429,13 +351,8 @@ class _HelpParagrafs {
           l10n.whenTheDeckrDesktopAppIsRun,
           newlines: 2,
           children: [
-            ParagrafSpec.sml(
-              l10n.clickOnThatIconAndAMenuAppears,
-              newlines: 2,
-            ),
-            ParagrafSpec.sml(
-              l10n.inThisWindowFindTheCheckboxLabeled,
-            ),
+            ParagrafSpec.sml(l10n.clickOnThatIconAndAMenuAppears, newlines: 2),
+            ParagrafSpec.sml(l10n.inThisWindowFindTheCheckboxLabeled),
           ],
         );
 
@@ -443,21 +360,14 @@ class _HelpParagrafs {
         return ParagrafSpec.sml(
           l10n.signingInIsJustToProtectAgainst,
           children: [
-            ParagrafSpec.sml(
-              l10n.ifYouPostABookmarkDeckWeShow,
-              spaces: 2,
-            ),
-            ParagrafSpec.sml(
-              l10n.youCanAlsoBackupYourBookmarksTo,
-              spaces: 2,
-            ),
+            ParagrafSpec.sml(l10n.ifYouPostABookmarkDeckWeShow, spaces: 2),
+            ParagrafSpec.sml(l10n.youCanAlsoBackupYourBookmarksTo, spaces: 2),
           ],
         );
     }
   }
 }
 
- 
 // ===================================================================
 
 /*
