@@ -383,7 +383,7 @@ class _HelpParagrafs {
             const ParagrafSpec.linkSm(
               'Deckr browser extension',
               href: kDeckrUrl,
-              spaces: 1,
+              spaces: 2,
               newlines: 2,
             ),
             ParagrafSpec.sml(
