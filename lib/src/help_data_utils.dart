@@ -378,14 +378,14 @@ class _HelpParagrafs {
       case HelpDataId.deckrLinksPageDialog:
         return ParagrafSpec.sml(
           'These bookmark decks are created using the Deckr browser extension.',
+          newlines: 2,
           children: [
             ParagrafSpec.sml(
               'If you have a great collection of bookmarks, download the Deckr browser extension to manage and share them with others.',
-              spaces: 2,
+              newlines: 2,
             ),
             ParagrafSpec.sml(
               'These bookmarks are curated and shared by the Deckr community',
-              spaces: 2,
             ),
           ],
         );
