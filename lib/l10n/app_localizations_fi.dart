@@ -79,6 +79,10 @@ class AppLocalizationsFi extends AppLocalizations {
       'Jos käyttöliittymä on liian pieni luettavaksi tai liian suuri, voit säätää sitä verkkoselaimen sisäänrakennetulla \"Zoom\"-asetuksella.';
 
   @override
+  String get ifYouHaveAGreatCollectionOfBookmarksDo =>
+      'If you have a great collection of bookmarks, download the Deckr browser extension to manage and share them with others.';
+
+  @override
   String get ifYouOpenTheAboutDeckrMenuItem =>
       'Jos avaat \"Tietoja Deckr\" -valikkokohdan, voit määrittää tämän kuvakkeen värin ja koon. Voit myös asettaa \"Launch at Startup\" (Käynnistä käynnistyksen yhteydessä), jolloin Deckr käynnistyy uudelleenkäynnistyksen jälkeen.';
 
@@ -172,6 +176,14 @@ class AppLocalizationsFi extends AppLocalizations {
   @override
   String get thereAreAFewOtherMenuItemsFor =>
       'Palvelimen konsolilokin katseluun on muutama muukin valikkokohta.';
+
+  @override
+  String get theseBookmarkDecksAreCreatedUsin =>
+      'These bookmark decks are created using the';
+
+  @override
+  String get theseBookmarksAreCuratedAndSharedB =>
+      'These bookmarks are curated and shared by the Deckr community.';
 
   @override
   String get thisServesThePurposeOfLettingYouKnowIt =>

@@ -80,6 +80,10 @@ class AppLocalizationsCs extends AppLocalizations {
       'Pokud je uživatelské rozhraní příliš malé na čtení nebo příliš velké, můžete jej upravit pomocí vestavěného nastavení webového prohlížeče \"Zoom\".';
 
   @override
+  String get ifYouHaveAGreatCollectionOfBookmarksDo =>
+      'If you have a great collection of bookmarks, download the Deckr browser extension to manage and share them with others.';
+
+  @override
   String get ifYouOpenTheAboutDeckrMenuItem =>
       'Pokud otevřete položku nabídky \"O Deckr\", můžete nastavit barvu a velikost této ikony. A můžete nastavit \"Launch at Startup\" (Spustit při spuštění), což způsobí, že se Deckr spustí po restartu.';
 
@@ -173,6 +177,14 @@ class AppLocalizationsCs extends AppLocalizations {
   @override
   String get thereAreAFewOtherMenuItemsFor =>
       'Existuje několik dalších položek nabídky pro zobrazení protokolu konzoly serveru.';
+
+  @override
+  String get theseBookmarkDecksAreCreatedUsin =>
+      'These bookmark decks are created using the';
+
+  @override
+  String get theseBookmarksAreCuratedAndSharedB =>
+      'These bookmarks are curated and shared by the Deckr community.';
 
   @override
   String get thisServesThePurposeOfLettingYouKnowIt =>

@@ -14,5 +14,6 @@
   },
   "editor.formatOnSave": true,
   "prettier.singleQuote": true,
-  "prettier.trailingComma": "all"
+  "prettier.trailingComma": "all",
+  "arb-editor.suppressedWarnings": "all"
 }

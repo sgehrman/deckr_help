@@ -378,7 +378,7 @@ class _HelpParagrafs {
 
       case HelpDataId.deckrLinksPageDialog:
         return ParagrafSpec.sml(
-          'These bookmark decks are created using the',
+          l10n.theseBookmarkDecksAreCreatedUsin,
           children: [
             const ParagrafSpec.linkSm(
               'Deckr browser extension',
@@ -387,12 +387,10 @@ class _HelpParagrafs {
               newlines: 2,
             ),
             ParagrafSpec.sml(
-              'If you have a great collection of bookmarks, download the Deckr browser extension to manage and share them with others.',
+              l10n.ifYouHaveAGreatCollectionOfBookmarksDo,
               newlines: 2,
             ),
-            ParagrafSpec.sml(
-              'These bookmarks are curated and shared by the Deckr community',
-            ),
+            ParagrafSpec.sml(l10n.theseBookmarksAreCuratedAndSharedB),
           ],
         );
     }

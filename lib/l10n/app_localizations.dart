@@ -228,6 +228,12 @@ abstract class AppLocalizations {
   /// **'If the user interface is too small to read or too large, you can adjust it using the web browsers built in \"Zoom\" setting.'**
   String get ifTheUserInterfaceIsTooSmallToRead;
 
+  /// No description provided for @ifYouHaveAGreatCollectionOfBookmarksDo.
+  ///
+  /// In en, this message translates to:
+  /// **'If you have a great collection of bookmarks, download the Deckr browser extension to manage and share them with others.'**
+  String get ifYouHaveAGreatCollectionOfBookmarksDo;
+
   /// No description provided for @ifYouOpenTheAboutDeckrMenuItem.
   ///
   /// In en, this message translates to:
@@ -371,6 +377,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'There are a few other menu items for viewing the servers console log.'**
   String get thereAreAFewOtherMenuItemsFor;
+
+  /// No description provided for @theseBookmarkDecksAreCreatedUsin.
+  ///
+  /// In en, this message translates to:
+  /// **'These bookmark decks are created using the'**
+  String get theseBookmarkDecksAreCreatedUsin;
+
+  /// No description provided for @theseBookmarksAreCuratedAndSharedB.
+  ///
+  /// In en, this message translates to:
+  /// **'These bookmarks are curated and shared by the Deckr community.'**
+  String get theseBookmarksAreCuratedAndSharedB;
 
   /// No description provided for @thisServesThePurposeOfLettingYouKnowIt.
   ///

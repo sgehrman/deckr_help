@@ -72,6 +72,10 @@ class AppLocalizationsZh extends AppLocalizations {
       '如果用户界面太小无法阅读或太大，可以使用网络浏览器内置的 \"缩放 \"设置进行调整。';
 
   @override
+  String get ifYouHaveAGreatCollectionOfBookmarksDo =>
+      'If you have a great collection of bookmarks, download the Deckr browser extension to manage and share them with others.';
+
+  @override
   String get ifYouOpenTheAboutDeckrMenuItem =>
       '如果打开 \"关于 Deckr \"菜单项，可以设置该图标的颜色和大小。还可以设置 \"启动时启动\"，使 Deckr 在重启后启动。';
 
@@ -156,6 +160,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get thereAreAFewOtherMenuItemsFor => '还有其他一些菜单项可用于查看服务器控制台日志。';
+
+  @override
+  String get theseBookmarkDecksAreCreatedUsin =>
+      'These bookmark decks are created using the';
+
+  @override
+  String get theseBookmarksAreCuratedAndSharedB =>
+      'These bookmarks are curated and shared by the Deckr community.';
 
   @override
   String get thisServesThePurposeOfLettingYouKnowIt =>

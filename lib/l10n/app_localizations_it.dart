@@ -80,6 +80,10 @@ class AppLocalizationsIt extends AppLocalizations {
       'Se l\'interfaccia utente è troppo piccola per essere letta o troppo grande, puoi regolarla utilizzando l\'impostazione \"Zoom\" integrata nei browser web.';
 
   @override
+  String get ifYouHaveAGreatCollectionOfBookmarksDo =>
+      'If you have a great collection of bookmarks, download the Deckr browser extension to manage and share them with others.';
+
+  @override
   String get ifYouOpenTheAboutDeckrMenuItem =>
       'Se apri la voce di menu \"Informazioni su Deckr\", puoi impostare il colore e le dimensioni di questa icona. Inoltre, puoi impostare \"Avvia all\'avvio\" per far sì che il Deckr si avvii dopo un riavvio.';
 
@@ -173,6 +177,14 @@ class AppLocalizationsIt extends AppLocalizations {
   @override
   String get thereAreAFewOtherMenuItemsFor =>
       'Ci sono altre voci di menu per visualizzare il log della console del server.';
+
+  @override
+  String get theseBookmarkDecksAreCreatedUsin =>
+      'These bookmark decks are created using the';
+
+  @override
+  String get theseBookmarksAreCuratedAndSharedB =>
+      'These bookmarks are curated and shared by the Deckr community.';
 
   @override
   String get thisServesThePurposeOfLettingYouKnowIt =>

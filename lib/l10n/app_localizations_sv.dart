@@ -79,6 +79,10 @@ class AppLocalizationsSv extends AppLocalizations {
       'Om användargränssnittet är för litet eller för stort för att kunna läsas kan du justera det med hjälp av webbläsarens inbyggda \"Zoom\"-inställning.';
 
   @override
+  String get ifYouHaveAGreatCollectionOfBookmarksDo =>
+      'If you have a great collection of bookmarks, download the Deckr browser extension to manage and share them with others.';
+
+  @override
   String get ifYouOpenTheAboutDeckrMenuItem =>
       'Om du öppnar menyalternativet \"Om Deckr\" kan du ställa in färg och storlek på denna ikon. Du kan också ställa in \"Starta vid start\" så att Deckr startas efter en omstart.';
 
@@ -172,6 +176,14 @@ class AppLocalizationsSv extends AppLocalizations {
   @override
   String get thereAreAFewOtherMenuItemsFor =>
       'Det finns några andra menyalternativ för att visa serverns konsollogg.';
+
+  @override
+  String get theseBookmarkDecksAreCreatedUsin =>
+      'These bookmark decks are created using the';
+
+  @override
+  String get theseBookmarksAreCuratedAndSharedB =>
+      'These bookmarks are curated and shared by the Deckr community.';
 
   @override
   String get thisServesThePurposeOfLettingYouKnowIt =>
