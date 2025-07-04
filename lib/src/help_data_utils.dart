@@ -23,6 +23,7 @@ enum HelpDataId {
   scalingTheUI,
   contextualMenus,
   keyboardShortcuts,
+  deckrLinksPageDialog,
 }
 
 class HelpDataUtils {
@@ -122,6 +123,11 @@ class HelpDataUtils {
         title = ParagrafSpec.md(l10n.howDoIInstallTheBrowserExtension);
         message = _HelpParagrafs.withId(context, id);
         break;
+
+      case HelpDataId.deckrLinksPageDialog:
+        title = const ParagrafSpec.md('Deckr Bookmark Decks');
+        message = _HelpParagrafs.withId(context, id);
+        break;
     }
 
     return HelpData(title: title, message: message);
@@ -161,6 +167,10 @@ class HelpDataUtils {
     helpDataWithId(context, HelpDataId.installingTheExtension),
     helpDataWithId(context, HelpDataId.multipleComputers),
     helpDataWithId(context, HelpDataId.autoLaunchOnStartup),
+  ];
+
+  static List<HelpData> deckrLinksPageDialog(BuildContext context) => [
+    helpDataWithId(context, HelpDataId.deckrLinksPageDialog),
   ];
 }
 
@@ -362,6 +372,21 @@ class _HelpParagrafs {
           children: [
             ParagrafSpec.sml(l10n.ifYouPostABookmarkDeckWeShow, spaces: 2),
             ParagrafSpec.sml(l10n.youCanAlsoBackupYourBookmarksTo, spaces: 2),
+          ],
+        );
+
+      case HelpDataId.deckrLinksPageDialog:
+        return ParagrafSpec.sml(
+          'These bookmark decks are created using the Deckr browser extension.',
+          children: [
+            ParagrafSpec.sml(
+              'If you have a great collection of bookmarks, download the Deckr browser extension to manage and share them with others.',
+              spaces: 2,
+            ),
+            ParagrafSpec.sml(
+              'These bookmarks are curated and shared by the Deckr community',
+              spaces: 2,
+            ),
           ],
         );
     }
