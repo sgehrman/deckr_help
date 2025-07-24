@@ -73,7 +73,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ifYouHaveAGreatCollectionOfBookmarksDo =>
-      'If you have a great collection of bookmarks, download the Deckr browser extension to manage and share them with others.';
+      '如果您收藏了大量书签，请下载 Deckr 浏览器扩展来管理这些书签并与他人共享。';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem =>
@@ -162,12 +162,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get thereAreAFewOtherMenuItemsFor => '还有其他一些菜单项可用于查看服务器控制台日志。';
 
   @override
-  String get theseBookmarkDecksAreCreatedUsin =>
-      'These bookmark decks are created using the';
+  String get theseBookmarkDecksAreCreatedUsin => '这些书签甲板是使用';
 
   @override
-  String get theseBookmarksAreCuratedAndSharedB =>
-      'These bookmarks are curated and shared by the Deckr community.';
+  String get theseBookmarksAreCuratedAndSharedB => '这些书签由 Deckr 社区策划和共享。';
 
   @override
   String get thisServesThePurposeOfLettingYouKnowIt =>

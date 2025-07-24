@@ -81,7 +81,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get ifYouHaveAGreatCollectionOfBookmarksDo =>
-      'If you have a great collection of bookmarks, download the Deckr browser extension to manage and share them with others.';
+      'Wenn du eine große Sammlung von Lesezeichen hast, lade die Deckr-Browsererweiterung herunter, um sie zu verwalten und mit anderen zu teilen.';
 
   @override
   String get ifYouOpenTheAboutDeckrMenuItem =>
@@ -180,11 +180,11 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get theseBookmarkDecksAreCreatedUsin =>
-      'These bookmark decks are created using the';
+      'Diese Lesezeichen-Decks werden mit der';
 
   @override
   String get theseBookmarksAreCuratedAndSharedB =>
-      'These bookmarks are curated and shared by the Deckr community.';
+      'Diese Lesezeichen werden von der Deckr-Community kuratiert und geteilt.';
 
   @override
   String get thisServesThePurposeOfLettingYouKnowIt =>

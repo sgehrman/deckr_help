@@ -110,6 +110,8 @@ class Translator {
     // replace "Deckr" with "512W345" so it won't get translated
     final copied = text.replaceAll('Deckr', '512W345');
 
+    print(copied);
+
     final body = <String, String>{
       'text': copied,
       'auth_key': 'xxxxxxxxxxxx',
